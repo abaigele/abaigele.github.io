@@ -1,0 +1,280 @@
+iata,name,city,state,longitude,latitude
+ABI,"Abilene, TX",Abilene,TX,-99.7384,32.4543
+ADK,"Adak Island, AK",Adak Island,AK,-176.64,51.78
+BQN,"Aguadilla, PR",Aguadilla,PR,-67.1536,18.4382
+AKR,"Akron, OH",Akron,OH,-81.5219,41.0798
+ABY,"Albany, GA",Albany,GA,-84.1762,31.5776
+ALB,"Albany, NY",Albany,NY,-73.7987,42.6664
+ABQ,"Albuquerque, NM",Albuquerque,NM,-106.6464,35.1053
+AEX,"Alexandria, LA",Alexandria,LA,-92.4702,31.2923
+ABE,"Allentown, PA",Allentown,PA,-75.4756,40.5961
+AMA,"Amarillo, TX",Amarillo,TX,-101.8311,35.1988
+ANC,"Anchorage, AK",Anchorage,AK,-149.1091,61.1508
+ATW,"Appleton, WI",Appleton,WI,-88.3891,44.2779
+AVL,"Asheville, NC",Asheville,NC,-82.5536,35.5704
+BKW,"Ashland, WV",Ashland,WV,-81.3525,37.408333
+ASE,"Aspen, CO",Aspen,CO,-106.8369,39.195
+ATL,"Atlanta, GA",Atlanta,GA,-84.4224,33.7627
+ACY,"Atlantic City, NJ",Atlantic City,NJ,-74.4527,39.3797
+AGS,"Augusta, GA",Augusta,GA,-82.0708,33.3645
+AUS,"Austin, TX",Austin,TX,-97.7522,30.3004
+BFL,"Bakersfield, CA",Bakersfield,CA,-119.0359,35.3529
+BWI,"Baltimore, MD",Baltimore,MD,-76.6144,39.3051
+BGR,"Bangor, ME",Bangor,ME,-68.7906,44.8322
+BRW,"Barrow, AK",Barrow,AK,-156.788611,71.290556
+BTR,"Baton Rouge, LA",Baton Rouge,LA,-91.131,30.4418
+BLI,"Bellingham, WA",Bellingham,WA,-122.4687,48.7543
+S07,"Bend, OR",Bend,OR,-121.3087,44.0562
+BET,"Bethel, AK",Bethel,AK,-161.7917,60.7928
+BIL,"Billings, MT",Billings,MT,-108.5524,45.7891
+BGM,"Binghamton, NY",Binghamton,NY,-75.9093,42.1014
+BHM,"Birmingham, AL",Birmingham,AL,-86.7987,33.5277
+BIS,"Bismarck, ND",Bismarck,ND,-100.7694,46.8144
+BMI,"Bloomington, IL",Bloomington,IL,-88.9703,40.4757
+BOI,"Boise, ID",Boise,ID,-116.2312,43.6007
+BOS,"Boston, MA",Boston,MA,-71.0846,42.3188
+BZN,"Bozeman, MT",Bozeman,MT,-111.0552,45.6832
+SRQ,"Bradenton, FL",Bradenton,FL,-82.5739,27.49
+SGF,"Branson, MO",Branson,MO,-93.2635,36.651
+TRI,"Bristol, TN",Bristol,TN,-82.2154,36.5572
+BRO,"Brownsville, TX",Brownsville,TX,-97.4565,25.998
+BQK,"Brunswick, GA",Brunswick,GA,-81.474,31.145
+BUF,"Buffalo, NY",Buffalo,NY,-78.8487,42.9016
+BUR,"Burbank, CA",Burbank,CA,-118.3235,34.1879
+BTV,"Burlington, VT",Burlington,VT,-73.2314,44.4877
+BTM,"Butte, MT",Butte,MT,-112.6571,45.902
+CRQ,"Carlsbad, CA",Carlsbad,CA,-117.2837,33.1247
+CPR,"Casper, WY",Casper,WY,-106.3207,42.842
+CDC,"Cedar City, UT",Cedar City,UT,-113.0956,37.6834
+CHS,"Charleston, SC",Charleston,SC,-79.9628,32.8153
+CRW,"Charleston, WV",Charleston,WV,-81.6323,38.3484
+X66,"Charlotte Amalie, VI",Charlotte Amalie,VI,-64.95,18.35
+CLT,"Charlotte, NC",Charlotte,NC,-80.8304,35.208
+CHO,"Charlottesville, VA",Charlottesville,VA,-78.4855,38.0375
+CHA,"Chattanooga, TN",Chattanooga,TN,-85.2488,35.0657
+ORD,"Chicago, IL",Chicago,IL,-87.6862,41.8373
+CIC,"Chico, CA",Chico,CA,-121.8152,39.7575
+STX,"Christiansted, VI",Christiansted,VI,-64.75,17.75
+I67,"Cincinnati, OH",Cincinnati,OH,-84.5061,39.1413
+BKL,"Cleveland, OH",Cleveland,OH,-81.6804,41.4767
+CLI,"Clintonville, WI",Clintonville,WI,-88.7513,44.6222
+COD,"Cody, WY",Cody,WY,-109.0549,44.5212
+CLL,"College Station, TX",College Station,TX,-96.296,30.5852
+COS,"Colorado Springs, CO",Colorado Springs,CO,-104.7606,38.8674
+CUB,"Columbia, SC",Columbia,SC,-80.9037,34.0376
+CSG,"Columbus, GA",Columbus,GA,-84.8771,32.51
+UBS,"Columbus, MS",Columbus,MS,-88.4096,33.5088
+CMH,"Columbus, OH",Columbus,OH,-82.985,39.9862
+OTH,"Coos Bay, OR",Coos Bay,OR,-124.233,43.3789
+CDV,"Cordova, AK",Cordova,AK,-145.6092,60.5348
+CRP,"Corpus Christi, TX",Corpus Christi,TX,-97.3755,27.726
+CEC,"Crescent City, CA",Crescent City,CA,-124.1902,41.7727
+DAL,"Dallas, TX",Dallas,TX,-96.7662,32.7936
+DAY,"Dayton, OH",Dayton,OH,-84.1998,39.7797
+DAB,"Daytona Beach, FL",Daytona Beach,FL,-81.0982,29.1994
+SCC,"Deadhorse, AK",Deadhorse,AK,-148.511667,70.205556
+APA,"Denver, CO",Denver,CO,-104.8759,39.7621
+DSM,"Des Moines, IA",Des Moines,IA,-93.6105,41.5725
+DET,"Detroit, MI",Detroit,MI,-83.1024,42.3834
+DHN,"Dothan, AL",Dothan,AL,-85.4069,31.2335
+DBQ,"Dubuque, IA",Dubuque,IA,-90.7067,42.5008
+DLH,"Duluth, MN",Duluth,MN,-92.1392,46.7756
+DRO,"Durango, CO",Durango,CO,-107.8782,37.2659
+RDU,"Durham, NC",Durham,NC,-78.9031,35.9794
+EGE,"Eagle, CO",Eagle,CO,-106.8123,39.6368
+IPL,"El Centro, CA",El Centro,CA,-115.5586,32.7867
+ELP,"El Paso, TX",El Paso,TX,-106.4309,31.8479
+EKO,"Elko, NV",Elko,NV,-115.7674,40.8387
+ELM,"Elmira, NY",Elmira,NY,-76.8097,42.0938
+ERI,"Erie, PA",Erie,PA,-80.0733,42.1168
+EUG,"Eugene, OR",Eugene,OR,-123.1173,44.0563
+ACV,"Eureka, CA",Eureka,CA,-124.1568,40.7942
+EVV,"Evansville, IN",Evansville,IN,-87.5341,37.9881
+FAI,"Fairbanks, AK",Fairbanks,AK,-147.6534,64.8353
+FAR,"Fargo, ND",Fargo,ND,-96.8292,46.8652
+FYV,"Fayetteville, AR",Fayetteville,AR,-94.166,36.0713
+FAY,"Fayetteville, NC",Fayetteville,NC,-78.9776,35.0846
+FLG,"Flagstaff, AZ",Flagstaff,AZ,-111.6195,35.1872
+FNT,"Flint, MI",Flint,MI,-83.6922,43.0235
+FLO,"Florence, SC",Florence,SC,-79.7877,34.1781
+FLL,"Fort Lauderdale, FL",Fort Lauderdale,FL,-80.1464,26.1412
+FSM,"Fort Smith, AR",Fort Smith,AR,-94.3695,35.3493
+FWA,"Fort Wayne, IN",Fort Wayne,IN,-85.1437,41.0886
+FWS,"Fort Worth, TX",Fort Worth,TX,-97.3473,32.7811
+FAT,"Fresno, CA",Fresno,CA,-119.7941,36.7831
+FMY,"Ft. Myers, FL",Ft. Myers,FL,-81.833333,26.616667
+GNV,"Gainesville, FL",Gainesville,FL,-82.3458,29.6804
+GCC,"Gillette, WY",Gillette,WY,-105.4983,44.2752
+GFK,"Grand Forks, ND",Grand Forks,ND,-97.0886,47.9218
+GJT,"Grand Junction, CO",Grand Junction,CO,-108.5673,39.0876
+GRR,"Grand Rapids, MI",Grand Rapids,MI,-85.6562,42.962
+GTF,"Great Falls, MT",Great Falls,MT,-111.2995,47.5022
+GSO,"Greensboro, NC",Greensboro,NC,-79.8269,36.0956
+GSP,"Greenville, SC",Greenville,SC,-82.3647,34.8353
+GPT,"Gulfport, MS",Gulfport,MS,-89.0703,30.4271
+GUC,"Gunnison, CO",Gunnison,CO,-106.9225,38.5455
+MDT,"Harrisburg, PA",Harrisburg,PA,-76.8843,40.2752
+HFD,"Hartford, CT",Hartford,CT,-72.6834,41.7661
+HDN,"Hayden, CO",Hayden,CO,-107.2391,40.4851
+HLN,"Helena, MT",Helena,MT,-112.0202,46.5965
+ITO,"Hilo, HI",Hilo,HI,-155.0864,19.6886
+HNL,"Honolulu, HI",Honolulu,HI,-157.846,21.3294
+IAH,"Houston, TX",Houston,TX,-95.3889,29.7863
+HSV,"Huntsville, AL",Huntsville,AL,-86.6412,34.6988
+IDA,"Idaho Falls, ID",Idaho Falls,ID,-112.0362,43.4872
+IND,"Indianapolis, IN",Indianapolis,IN,-86.1458,39.7771
+IYK,"Inyokern, CA",Inyokern,CA,-117.8212,35.6546
+IOW,"Iowa City, IA",Iowa City,IA,-91.5303,41.6559
+ISP,"Islip, NY",Islip,NY,-73.198889,40.756667
+ITH,"Ithaca, NY",Ithaca,NY,-76.5032,42.4442
+JAC,"Jackson, WY",Jackson,WY,-110.7745,43.4721
+VQQ,"Jacksonville, FL",Jacksonville,FL,-81.6749,30.3322
+OAJ,"Jacksonville, NC",Jacksonville,NC,-77.3941,34.7288
+JNU,"Juneau, AK",Juneau,AK,-134.1739,58.4546
+OGG,"Kahului, HI",Kahului,HI,-156.4603,20.8715
+AZO,"Kalamazoo, MI",Kalamazoo,MI,-85.5882,42.2749
+S27,"Kalispell, MT",Kalispell,MT,-114.3262,48.2156
+MCI,"Kansas City, MO",Kansas City,MO,-94.5541,39.1239
+KTN,"Ketchikan, AK",Ketchikan,AK,-131.6698,55.3556
+SUN,"Ketchum, ID",Ketchum,ID,-114.3731,43.6868
+EYW,"Key West, FL",Key West,FL,-81.7768,24.5637
+ILE,"Killeen, TX",Killeen,TX,-97.7296,31.0754
+LMT,"Klamath Falls, OR",Klamath Falls,OR,-121.7754,42.2191
+DKX,"Knoxville, TN",Knoxville,TN,-83.9496,35.9692
+ADQ,"Kodiak, AK",Kodiak,AK,-152.406,57.7934
+KOA,"Kona, HI",Kona,HI,-155.994167,19.65
+OTZ,"Kotzebue, AK",Kotzebue,AK,-162.5231,66.8766
+LSE,"La Crosse, WI",La Crosse,WI,-91.2268,43.824
+LFT,"Lafayette, LA",Lafayette,LA,-92.0323,30.2084
+LCH,"Lake Charles, LA",Lake Charles,LA,-93.2122,30.2012
+LAN,"Lansing, MI",Lansing,MI,-84.5601,42.7142
+LRD,"Laredo, TX",Laredo,TX,-99.4875,27.5629
+LAS,"Las Vegas, NV",Las Vegas,NV,-115.2654,36.2333
+LWS,"Lewiston, ID",Lewiston,ID,-116.9934,46.3934
+LEX,"Lexington, KY",Lexington,KY,-84.4587,38.0423
+LIH,"Lihue, HI",Lihue,HI,-159.3541,21.9728
+LNK,"Lincoln, NE",Lincoln,NE,-96.6788,40.809
+LIT,"Little Rock, AR",Little Rock,AR,-92.3576,34.7256
+LGB,"Long Beach, CA",Long Beach,CA,-118.1675,33.7981
+GGG,"Longview, TX",Longview,TX,-94.7621,32.5193
+LAX,"Los Angeles, CA",Los Angeles,CA,-118.4068,34.1139
+SDF,"Louisville, KY",Louisville,KY,-85.6485,38.1663
+LBB,"Lubbock, TX",Lubbock,TX,-101.8878,33.5659
+LYH,"Lynchburg, VA",Lynchburg,VA,-79.1909,37.4003
+MSN,"Madison, WI",Madison,WI,-89.3931,43.0826
+MHT,"Manchester, NH",Manchester,NH,-71.4447,42.9848
+MHK,"Manhattan, KS",Manhattan,KS,-96.6046,39.1886
+MQT,"Marquette, MI",Marquette,MI,-87.4082,46.544
+MFI,"Marshfield, WI",Marshfield,WI,-90.1728,44.6627
+MFR,"Medford, OR",Medford,OR,-122.8537,42.3372
+MLB,"Melbourne, FL",Melbourne,FL,-80.6627,28.1085
+MEM,"Memphis, TN",Memphis,TN,-89.9773,35.1046
+MEI,"Meridian, MS",Meridian,MS,-88.6896,32.3846
+MIA,"Miami, FL",Miami,FL,-80.2102,25.7839
+MAF,"Midland, TX",Midland,TX,-102.1137,32.0249
+MWC,"Milwaukee, WI",Milwaukee,WI,-87.9673,43.0642
+MSP,"Minneapolis, MN",Minneapolis,MN,-93.2678,44.9635
+MOT,"Minot, ND",Minot,ND,-101.2781,48.2375
+MFE,"Mission, TX",Mission,TX,-98.3251,26.2041
+MSO,"Missoula, MT",Missoula,MT,-114.0214,46.875
+BFM,"Mobile, AL",Mobile,AL,-88.1162,30.6783
+MOD,"Modesto, CA",Modesto,CA,-121.0028,37.6374
+MLI,"Moline, IL",Moline,IL,-90.4921,41.4821
+MLU,"Monroe, LA",Monroe,LA,-92.0774,32.5183
+MRY,"Monterey, CA",Monterey,CA,-121.8807,36.5922
+MGM,"Montgomery, AL",Montgomery,AL,-86.2666,32.3473
+MTJ,"Montrose, CO",Montrose,CO,-107.859,38.469
+MWH,"Moses Lake, WA",Moses Lake,WA,-119.2761,47.128
+MYR,"Myrtle Beach, SC",Myrtle Beach,SC,-78.8843,33.7096
+BNA,"Nashville, TN",Nashville,TN,-86.7843,36.1715
+EWN,"New Bern, NC",New Bern,NC,-77.0723,35.0955
+MSY,"New Orleans, LA",New Orleans,LA,-89.9288,30.0687
+JFK,"New York, NY",New York,NY,-73.9249,40.6943
+EWR,"Newark, NJ",Newark,NJ,-74.1725,40.7245
+PHF,"Newport News, VA",Newport News,VA,-76.5185,37.1051
+OME,"Nome, AK",Nome,AK,-165.4053,64.5213
+ORF,"Norfolk, VA",Norfolk,VA,-76.259,36.8945
+OAK,"Oakland, CA",Oakland,CA,-122.2165,37.7903
+OKC,"Oklahoma City, OK",Oklahoma City,OK,-97.5136,35.4676
+OMA,"Omaha, NE",Omaha,NE,-96.0522,41.2627
+ONT,"Ontario, CA",Ontario,CA,-117.6064,34.0393
+MCO,"Orlando, FL",Orlando,FL,-81.3369,28.4772
+OXR,"Oxnard, CA",Oxnard,CA,-119.1815,34.1963
+PSP,"Palm Springs, CA",Palm Springs,CA,-116.5382,33.8017
+PFN,"Panama City, FL",Panama City,FL,-85.6004,30.1995
+PSC,"Pasco, WA",Pasco,WA,-119.1304,46.2506
+PNS,"Pensacola, FL",Pensacola,FL,-87.1886,30.4427
+PIA,"Peoria, IL",Peoria,IL,-89.6153,40.752
+PSG,"Petersburg, AK",Petersburg,AK,-132.8727,56.7566
+PHL,"Philadelphia, PA",Philadelphia,PA,-75.1339,40.0077
+PHX,"Phoenix, AZ",Phoenix,AZ,-112.0891,33.5722
+PIR,"Pierre, SD",Pierre,SD,-100.3205,44.3748
+PIT,"Pittsburgh, PA",Pittsburgh,PA,-79.9762,40.4396
+PIH,"Pocatello, ID",Pocatello,ID,-112.4646,42.8724
+PSE,"Ponce, PR",Ponce,PR,-66.6198,18.012
+PWM,"Portland, ME",Portland,ME,-70.2715,43.6773
+PDX,"Portland, OR",Portland,OR,-122.65,45.5372
+POU,"Poughkeepsie, NY",Poughkeepsie,NY,-73.921,41.6949
+PVD,"Providence, RI",Providence,RI,-71.4187,41.823
+RAP,"Rapid City, SD",Rapid City,SD,-103.2204,44.0716
+RDD,"Redding, CA",Redding,CA,-122.365,40.5698
+RNO,"Reno, NV",Reno,NV,-119.8483,39.5497
+RIC,"Richmond, VA",Richmond,VA,-77.4756,37.5295
+ROA,"Roanoke, VA",Roanoke,VA,-79.958,37.2785
+RSI,"Rochester, MN",Rochester,MN,-92.4778,44.0151
+ROC,"Rochester, NY",Rochester,NY,-77.6162,43.168
+RKS,"Rock Springs, WY",Rock Springs,WY,-109.2238,41.5951
+ROW,"Roswell, NM",Roswell,NM,-104.5294,33.373
+SAC,"Sacramento, CA",Sacramento,CA,-121.4683,38.5667
+MBS,"Saginaw, MI",Saginaw,MI,-83.9501,43.4199
+SLC,"Salt Lake City, UT",Salt Lake City,UT,-111.9306,40.7777
+SJT,"San Angelo, TX",San Angelo,TX,-100.4506,31.4424
+SAT,"San Antonio, TX",San Antonio,TX,-98.5253,29.4658
+HRL,"San Benito, TX",San Benito,TX,-97.644,26.1298
+SAN,"San Diego, CA",San Diego,CA,-117.1225,32.8312
+SFO,"San Francisco, CA",San Francisco,CA,-122.443,37.7562
+SJC,"San Jose, CA",San Jose,CA,-121.8486,37.3019
+SIG,"San Juan, PR",San Juan,PR,-66.0636,18.4037
+SBP,"San Luis Obispo, CA",San Luis Obispo,CA,-120.6691,35.2669
+SNA,"Santa Ana, CA",Santa Ana,CA,-117.8819,33.7366
+SBA,"Santa Barbara, CA",Santa Barbara,CA,-119.7202,34.4285
+SAF,"Santa Fe, NM",Santa Fe,NM,-105.9819,35.6619
+SMX,"Santa Maria, CA",Santa Maria,CA,-120.4432,34.9334
+SAV,"Savannah, GA",Savannah,GA,-81.1784,32.0281
+SEA,"Seattle, WA",Seattle,WA,-122.3244,47.6211
+SHV,"Shreveport, LA",Shreveport,LA,-93.7956,32.4656
+FSD,"Sioux Falls, SD",Sioux Falls,SD,-96.732,43.5397
+SIT,"Sitka, AK",Sitka,AK,-135.3153,57.2401
+SBN,"South Bend, IN",South Bend,IN,-86.2696,41.6767
+GEG,"Spokane, WA",Spokane,WA,-117.433,47.6671
+SPI,"Springfield, IL",Springfield,IL,-89.6538,39.771
+SGF,"Springfield, MO",Springfield,MO,-93.2916,37.1943
+SGU,"St. George, UT",St. George,UT,-113.577,37.077
+STL,"St. Louis, MO",St. Louis,MO,-90.2451,38.6358
+UNV,"State College, PA",State College,PA,-77.8568,40.7909
+SYR,"Syracuse, NY",Syracuse,NY,-76.1438,43.0409
+TLH,"Tallahassee, FL",Tallahassee,FL,-84.2526,30.4551
+TPA,"Tampa, FL",Tampa,FL,-82.4451,27.9942
+TEX,"Telluride, CO",Telluride,CO,-107.8269,37.9364
+TXK,"Texarkana, AR",Texarkana,AR,-93.996,33.4361
+TDZ,"Toledo, OH",Toledo,OH,-83.5822,41.6639
+TVC,"Traverse City, MI",Traverse City,MI,-85.6035,44.7547
+TUS,"Tucson, AZ",Tucson,AZ,-110.8782,32.1545
+TUL,"Tulsa, OK",Tulsa,OK,-95.9042,36.1284
+TWF,"Twin Falls, ID",Twin Falls,ID,-114.4615,42.5645
+TYR,"Tyler, TX",Tyler,TX,-95.3062,32.3184
+CMI,"Urbana, IL",Urbana,IL,-88.1972,40.1106
+VLD,"Valdosta, GA",Valdosta,GA,-83.2788,30.8502
+VPS,"Valparaiso, FL",Valparaiso,FL,-86.5079,30.4926
+JAN,"Vicksburg, MS",Vicksburg,MS,-90.8868,32.3173
+DCA,"Washington, DC",Washington,DC,-77.0163,38.9047
+ALO,"Waterloo, IA",Waterloo,IA,-92.3522,42.492
+PBI,"West Palm Beach, FL",West Palm Beach,FL,-80.1316,26.7468
+HPN,"White Plains, NY",White Plains,NY,-73.7549,41.022
+SPS,"Wichita Falls, TX",Wichita Falls,TX,-98.5291,33.9072
+ICT,"Wichita, KS",Wichita,KS,-97.3442,37.6896
+WBW,"Wilkes-Barre, PA",Wilkes-Barre,PA,-75.8759,41.2468
+ILM,"Wilmington, NC",Wilmington,NC,-77.8866,34.21
+WRG,"Wrangell, AK",Wrangell,AK,-132.0223,56.3317
+YAK,"Yakutat, AK",Yakutat,AK,-139.5966,59.567
+YUM,"Yuma, AZ",Yuma,AZ,-114.5488,32.5992
