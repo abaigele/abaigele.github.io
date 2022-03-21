@@ -1,0 +1,48 @@
+[{
+    "name": "gun",
+    "parent": "null",
+    "children": [
+      {
+        "name": "assembly",
+        "parent": "gun",
+        "children": [
+          {
+            "name": "weapon",
+            "parent": "assembly"
+          },
+          {
+            "name": "problem",
+            "parent": "assembly"
+          }
+        ]
+      },
+      {
+        "name": "neutrons",
+        "parent": "gun",
+        "children": [
+          {
+            "name": "emit",
+            "parent": "neutrons"
+          },
+          {
+            "name": "through",
+            "parent": "neutrons"
+          }
+        ]
+      },
+      {
+        "name": "start",
+        "parent": "gun",
+        "children": [
+          {
+            "name": "prematurely",
+            "parent": "start"
+          },
+          {
+            "name": "chain",
+            "parent": "start"
+          }
+        ]
+      }
+    ]
+  }]

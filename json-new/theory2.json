@@ -1,0 +1,20 @@
+[{
+    "name": "tesla",
+    "parent": "null",
+    "children": [
+      {
+        "name": "theory",
+        "parent": "tesla",
+        "children": [
+          {
+            "name": "coil",
+            "parent": "theory"
+          },
+          {
+            "name": "voltage",
+            "parent": "theory"
+          }
+        ]
+      }
+    ]
+  }]

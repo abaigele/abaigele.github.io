@@ -1,0 +1,62 @@
+[{
+    "name": "rhythm",
+    "parent": "null",
+    "children": [
+      {
+        "name": "best",
+        "parent": "rhythm",
+        "children": [
+          {
+            "name": "feeling",
+            "parent": "best"
+          },
+          {
+            "name": "own",
+            "parent": "best"
+          }
+        ]
+      },
+      {
+        "name": "evening",
+        "parent": "rhythm",
+        "children": [
+          {
+            "name": "plan",
+            "parent": "evening"
+          },
+          {
+            "name": "your",
+            "parent": "evening"
+          }
+        ]
+      },
+      {
+        "name": "morning",
+        "parent": "rhythm",
+        "children": [
+          {
+            "name": "get up",
+            "parent": "morning"
+          },
+          {
+            "name": "in",
+            "parent": "morning"
+          }
+        ]
+      },
+      {
+        "name": "alarm",
+        "parent": "rhythm",
+        "children": [
+          {
+            "name": "woken",
+            "parent": "alarm"
+          },
+          {
+            "name": "being",
+            "parent": "alarm"
+          }
+        ]
+      }
+    ]
+  }]

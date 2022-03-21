@@ -1,0 +1,48 @@
+[{
+    "name": "toxic",
+    "parent": "null",
+    "children": [
+      {
+        "name": "substances",
+        "parent": "toxic",
+        "children": [
+          {
+            "name": "corrosive",
+            "parent": "substances"
+          },
+          {
+            "name": "hazardous",
+            "parent": "substances"
+          }
+        ]
+      },
+      {
+        "name": "disposal",
+        "parent": "toxic",
+        "children": [
+          {
+            "name": "small",
+            "parent": "disposal"
+          },
+          {
+            "name": "amounts",
+            "parent": "disposal"
+          }
+        ]
+      },
+      {
+        "name": "products",
+        "parent": "toxic",
+        "children": [
+          {
+            "name": "should",
+            "parent": "products"
+          },
+          {
+            "name": "never",
+            "parent": "products"
+          }
+        ]
+      }
+    ]
+  }]

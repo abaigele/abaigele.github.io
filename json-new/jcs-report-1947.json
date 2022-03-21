@@ -1,0 +1,20 @@
+[{
+    "name": "nullify",
+    "parent": "null",
+    "children": [
+      {
+        "name": "demolish",
+        "parent": "nullify",
+        "children": [
+          {
+            "name": "vestigal",
+            "parent": "demolish"
+          },
+          {
+            "name": "remnants",
+            "parent": "demolish"
+          }
+        ]
+      }
+    ]
+  }]

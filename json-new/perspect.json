@@ -1,0 +1,20 @@
+[{
+    "name": "vector",
+    "parent": "null",
+    "children": [
+      {
+        "name": "dimensional",
+        "parent": "vector",
+        "children": [
+          {
+            "name": "derivation",
+            "parent": "dimensional"
+          },
+          {
+            "name": "follows",
+            "parent": "dimensional"
+          }
+        ]
+      }
+    ]
+  }]

@@ -1,0 +1,34 @@
+[{
+    "name": "menu",
+    "parent": "null",
+    "children": [
+      {
+        "name": "type",
+        "parent": "menu",
+        "children": [
+          {
+            "name": "number",
+            "parent": "type"
+          },
+          {
+            "name": "item",
+            "parent": "type"
+          }
+        ]
+      },
+      {
+        "name": "text",
+        "parent": "menu",
+        "children": [
+          {
+            "name": "scrolling",
+            "parent": "text"
+          },
+          {
+            "name": "appear",
+            "parent": "text"
+          }
+        ]
+      }
+    ]
+  }]

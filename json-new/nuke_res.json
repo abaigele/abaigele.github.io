@@ -1,0 +1,34 @@
+[{
+    "name": "waste",
+    "parent": "null",
+    "children": [
+      {
+        "name": "nuclear",
+        "parent": "waste",
+        "children": [
+          {
+            "name": "radioactive",
+            "parent": "nuclear"
+          },
+          {
+            "name": "power",
+            "parent": "nuclear"
+          }
+        ]
+      },
+      {
+        "name": "radiation",
+        "parent": "waste",
+        "children": [
+          {
+            "name": "low",
+            "parent": "radiation"
+          },
+          {
+            "name": "level",
+            "parent": "radiation"
+          }
+        ]
+      }
+    ]
+  }]

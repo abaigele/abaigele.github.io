@@ -1,0 +1,20 @@
+[{
+    "name": "science",
+    "parent": "null",
+    "children": [
+      {
+        "name": "progress",
+        "parent": "science",
+        "children": [
+          {
+            "name": "by",
+            "parent": "progress"
+          },
+          {
+            "name": "skepticism",
+            "parent": "progress"
+          }
+        ]
+      }
+    ]
+  }]

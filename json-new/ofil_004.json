@@ -1,0 +1,34 @@
+[{
+    "name": "radiation",
+    "parent": "null",
+    "children": [
+      {
+        "name": "exposure",
+        "parent": "radiation",
+        "children": [
+          {
+            "name": "dose",
+            "parent": "exposure"
+          },
+          {
+            "name": "injury",
+            "parent": "exposure"
+          }
+        ]
+      },
+      {
+        "name": "sickness",
+        "parent": "radiation",
+        "children": [
+          {
+            "name": "serious",
+            "parent": "sickness"
+          },
+          {
+            "name": "version",
+            "parent": "sickness"
+          }
+        ]
+      }
+    ]
+  }]

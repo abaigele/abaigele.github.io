@@ -1,0 +1,20 @@
+[{
+    "name": "manifest",
+    "parent": "null",
+    "children": [
+      {
+        "name": "sections",
+        "parent": "manifest",
+        "children": [
+          {
+            "name": "of",
+            "parent": "sections"
+          },
+          {
+            "name": "individual",
+            "parent": "sections"
+          }
+        ]
+      }
+    ]
+  }]

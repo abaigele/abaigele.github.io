@@ -1,0 +1,62 @@
+[{
+    "name": "uranium",
+    "parent": "null",
+    "children": [
+      {
+        "name": "bombard",
+        "parent": "uranium",
+        "children": [
+          {
+            "name": "thermal",
+            "parent": "bombard"
+          },
+          {
+            "name": "neurons",
+            "parent": "bombard"
+          }
+        ]
+      },
+      {
+        "name": "might",
+        "parent": "uranium",
+        "children": [
+          {
+            "name": "just",
+            "parent": "might"
+          },
+          {
+            "name": "cause",
+            "parent": "might"
+          }
+        ]
+      },
+      {
+        "name": "chain",
+        "parent": "uranium",
+        "children": [
+          {
+            "name": "reaction",
+            "parent": "chain"
+          },
+          {
+            "name": "which",
+            "parent": "chain"
+          }
+        ]
+      },
+      {
+        "name": "energy",
+        "parent": "uranium",
+        "children": [
+          {
+            "name": "release",
+            "parent": "energy"
+          },
+          {
+            "name": "fission",
+            "parent": "energy"
+          }
+        ]
+      }
+    ]
+  }]

@@ -1,0 +1,34 @@
+[{
+    "name": "shell",
+    "parent": "null",
+    "children": [
+      {
+        "name": "neutrons",
+        "parent": "shell",
+        "children": [
+          {
+            "name": "start",
+            "parent": "neutrons"
+          },
+          {
+            "name": "fission",
+            "parent": "neutrons"
+          }
+        ]
+      },
+      {
+        "name": "fusion",
+        "parent": "shell",
+        "children": [
+          {
+            "name": "reaction",
+            "parent": "fusion"
+          },
+          {
+            "name": "pit",
+            "parent": "fusion"
+          }
+        ]
+      }
+    ]
+  }]

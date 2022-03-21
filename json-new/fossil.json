@@ -1,0 +1,62 @@
+[{
+    "name": "fossil",
+    "parent": "null",
+    "children": [
+      {
+        "name": "transitional",
+        "parent": "fossil",
+        "children": [
+          {
+            "name": "any",
+            "parent": "transitional"
+          },
+          {
+            "name": "complaint",
+            "parent": "transitional"
+          }
+        ]
+      },
+      {
+        "name": "whale",
+        "parent": "fossil",
+        "children": [
+          {
+            "name": "horse",
+            "parent": "whale"
+          },
+          {
+            "name": "bird",
+            "parent": "whale"
+          }
+        ]
+      },
+      {
+        "name": "highly",
+        "parent": "fossil",
+        "children": [
+          {
+            "name": "incomplete",
+            "parent": "highly"
+          },
+          {
+            "name": "because",
+            "parent": "highly"
+          }
+        ]
+      },
+      {
+        "name": "text",
+        "parent": "fossil",
+        "children": [
+          {
+            "name": "rodent",
+            "parent": "text"
+          },
+          {
+            "name": "bovids",
+            "parent": "text"
+          }
+        ]
+      }
+    ]
+  }]

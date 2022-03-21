@@ -1,0 +1,48 @@
+[{
+    "name": "geneic",
+    "parent": "null",
+    "children": [
+      {
+        "name": "company",
+        "parent": "geneic",
+        "children": [
+          {
+            "name": "engineering",
+            "parent": "company"
+          },
+          {
+            "name": "which",
+            "parent": "company"
+          }
+        ]
+      },
+      {
+        "name": "guidelines",
+        "parent": "geneic",
+        "children": [
+          {
+            "name": "dna",
+            "parent": "guidelines"
+          },
+          {
+            "name": "research",
+            "parent": "guidelines"
+          }
+        ]
+      },
+      {
+        "name": "imposed",
+        "parent": "geneic",
+        "children": [
+          {
+            "name": "sanctions",
+            "parent": "imposed"
+          },
+          {
+            "name": "test",
+            "parent": "imposed"
+          }
+        ]
+      }
+    ]
+  }]

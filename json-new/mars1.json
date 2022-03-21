@@ -1,0 +1,20 @@
+[{
+    "name": "handbook",
+    "parent": "null",
+    "children": [
+      {
+        "name": "construction",
+        "parent": "handbook",
+        "children": [
+          {
+            "name": "operation",
+            "parent": "construction"
+          },
+          {
+            "name": "profit-making",
+            "parent": "construction"
+          }
+        ]
+      }
+    ]
+  }]

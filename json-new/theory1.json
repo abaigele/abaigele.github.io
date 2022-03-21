@@ -1,0 +1,20 @@
+[{
+    "name": "power",
+    "parent": "null",
+    "children": [
+      {
+        "name": "transmission",
+        "parent": "power",
+        "children": [
+          {
+            "name": "energy",
+            "parent": "transmission"
+          },
+          {
+            "name": "wireless",
+            "parent": "transmission"
+          }
+        ]
+      }
+    ]
+  }]

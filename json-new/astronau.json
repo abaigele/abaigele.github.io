@@ -1,0 +1,62 @@
+[{
+    "name": "astronauts",
+    "parent": "null",
+    "children": [
+      {
+        "name": "specialist",
+        "parent": "astronauts",
+        "children": [
+          {
+            "name": "mission",
+            "parent": "specialist"
+          },
+          {
+            "name": "overall",
+            "parent": "specialist"
+          }
+        ]
+      },
+      {
+        "name": "working",
+        "parent": "astronauts",
+        "children": [
+          {
+            "name": "with",
+            "parent": "working"
+          },
+          {
+            "name": "the",
+            "parent": "working"
+          }
+        ]
+      },
+      {
+        "name": "commander",
+        "parent": "astronauts",
+        "children": [
+          {
+            "name": "and",
+            "parent": "commander"
+          },
+          {
+            "name": "pilot",
+            "parent": "commander"
+          }
+        ]
+      },
+      {
+        "name": "coordination",
+        "parent": "astronauts",
+        "children": [
+          {
+            "name": "shuttle",
+            "parent": "coordination"
+          },
+          {
+            "name": "operations",
+            "parent": "coordination"
+          }
+        ]
+      }
+    ]
+  }]

@@ -1,0 +1,20 @@
+[{
+    "name": "computer",
+    "parent": "null",
+    "children": [
+      {
+        "name": "located",
+        "parent": "computer",
+        "children": [
+          {
+            "name": "center",
+            "parent": "located"
+          },
+          {
+            "name": "alabama",
+            "parent": "located"
+          }
+        ]
+      }
+    ]
+  }]

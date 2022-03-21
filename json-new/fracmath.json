@@ -1,0 +1,24 @@
+[{
+    "name": "sin",
+    "parent": "null",
+    "children": [
+      {
+        "name": "cos",
+        "parent": "bytes",
+        "children": [
+          {
+            "name": "on",
+            "parent": "cos"
+          },
+          {
+            "name": "lambda",
+            "parent": "cos"
+          }
+        ]
+      },
+      {
+        "name": "popcorn",
+        "parent": "sin"
+      }
+    ]
+  }]

@@ -1,0 +1,62 @@
+[{
+    "name": "motor",
+    "parent": "null",
+    "children": [
+      {
+        "name": "used",
+        "parent": "motor",
+        "children": [
+          {
+            "name": "oil",
+            "parent": "used"
+          },
+          {
+            "name": "generated",
+            "parent": "used"
+          }
+        ]
+      },
+      {
+        "name": "means",
+        "parent": "motor",
+        "children": [
+          {
+            "name": "significant",
+            "parent": "means"
+          },
+          {
+            "name": "reducing",
+            "parent": "means"
+          }
+        ]
+      },
+      {
+        "name": "of",
+        "parent": "motor",
+        "children": [
+          {
+            "name": "million",
+            "parent": "of"
+          },
+          {
+            "name": "gallons",
+            "parent": "of"
+          }
+        ]
+      },
+      {
+        "name": "burned",
+        "parent": "motor",
+        "children": [
+          {
+            "name": "collected",
+            "parent": "burned"
+          },
+          {
+            "name": "reprocessed",
+            "parent": "burned"
+          }
+        ]
+      }
+    ]
+  }]

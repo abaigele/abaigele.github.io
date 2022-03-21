@@ -1,0 +1,20 @@
+[{
+    "name": "fusion",
+    "parent": "null",
+    "children": [
+      {
+        "name": "energy",
+        "parent": "fusion",
+        "children": [
+          {
+            "name": "fission",
+            "parent": "energy"
+          },
+          {
+            "name": "secondary",
+            "parent": "energy"
+          }
+        ]
+      }
+    ]
+  }]

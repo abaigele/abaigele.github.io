@@ -1,0 +1,24 @@
+[{
+    "name": "bytes",
+    "parent": "null",
+    "children": [
+      {
+        "name": "created",
+        "parent": "bytes",
+        "children": [
+          {
+            "name": "on",
+            "parent": "created"
+          },
+          {
+            "name": "was",
+            "parent": "created"
+          }
+        ]
+      },
+      {
+        "name": "14827",
+        "parent": "bytes"
+      }
+    ]
+  }]

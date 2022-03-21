@@ -1,0 +1,34 @@
+[{
+    "name": "space",
+    "parent": "null",
+    "children": [
+      {
+        "name": "long",
+        "parent": "space",
+        "children": [
+          {
+            "name": "varies",
+            "parent": "long"
+          },
+          {
+            "name": "width",
+            "parent": "long"
+          }
+        ]
+      },
+      {
+        "name": "bodies",
+        "parent": "space",
+        "children": [
+          {
+            "name": "provides",
+            "parent": "bodies"
+          },
+          {
+            "name": "sufficient",
+            "parent": "bodies"
+          }
+        ]
+      }
+    ]
+  }]

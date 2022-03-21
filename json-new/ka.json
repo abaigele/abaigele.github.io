@@ -1,0 +1,34 @@
+[{
+    "name": "photo",
+    "parent": "null",
+    "children": [
+      {
+        "name": "radar",
+        "parent": "photo",
+        "children": [
+          {
+            "name": "unites",
+            "parent": "radar"
+          },
+          {
+            "name": "are",
+            "parent": "radar"
+          }
+        ]
+      },
+      {
+        "name": "licencse",
+        "parent": "photo",
+        "children": [
+          {
+            "name": "paint",
+            "parent": "licencse"
+          },
+          {
+            "name": "plate",
+            "parent": "licencse"
+          }
+        ]
+      }
+    ]
+  }]

@@ -1,0 +1,20 @@
+[{
+    "name": "functions",
+    "parent": "null",
+    "children": [
+      {
+        "name": "typical",
+        "parent": "functions",
+        "children": [
+          {
+            "name": "programming",
+            "parent": "typical"
+          },
+          {
+            "name": "hints",
+            "parent": "typical"
+          }
+        ]
+      }
+    ]
+  }]

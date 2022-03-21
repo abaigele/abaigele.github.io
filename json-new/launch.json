@@ -1,0 +1,34 @@
+[{
+    "name": "space",
+    "parent": "null",
+    "children": [
+      {
+        "name": "mission",
+        "parent": "space",
+        "children": [
+          {
+            "name": "family",
+            "parent": "mission"
+          },
+          {
+            "name": "launch",
+            "parent": "mission"
+          }
+        ]
+      },
+      {
+        "name": "liquid",
+        "parent": "space",
+        "children": [
+          {
+            "name": "propellant",
+            "parent": "liquid"
+          },
+          {
+            "name": "rockets",
+            "parent": "liquid"
+          }
+        ]
+      }
+    ]
+  }]
