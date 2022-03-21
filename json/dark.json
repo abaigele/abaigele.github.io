@@ -1,0 +1,62 @@
+{
+    "name": "dark",
+    "parent": "null",
+    "children": [
+      {
+        "name": "sucker",
+        "parent": "dark",
+        "children": [
+          {
+            "name": "theory",
+            "parent": "sucker"
+          },
+          {
+            "name": "proves",
+            "parent": "sucker"
+          }
+        ]
+      },
+      {
+        "name": "electric",
+        "parent": "dark",
+        "children": [
+          {
+            "name": "bulbs",
+            "parent": "electric"
+          },
+          {
+            "name": "light",
+            "parent": "electric"
+          }
+        ]
+      },
+      {
+        "name": "much",
+        "parent": "dark",
+        "children": [
+          {
+            "name": "greater",
+            "parent": "much"
+          },
+          {
+            "name": "capacity",
+            "parent": "much"
+          }
+        ]
+      },
+      {
+        "name": "candle",
+        "parent": "dark",
+        "children": [
+          {
+            "name": "flowing",
+            "parent": "candle"
+          },
+          {
+            "name": "into",
+            "parent": "candle"
+          }
+        ]
+      }
+    ]
+  }

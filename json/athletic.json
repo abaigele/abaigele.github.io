@@ -1,0 +1,62 @@
+{
+    "name": "motivation ",
+    "parent": "null",
+    "children": [
+      {
+        "name": "what",
+        "parent": "motivation ",
+        "children": [
+          {
+            "name": "should",
+            "parent": "what"
+          },
+          {
+            "name": "be",
+            "parent": "what"
+          }
+        ]
+      },
+      {
+        "name": "athletic",
+        "parent": "motivation ",
+        "children": [
+          {
+            "name": "behind",
+            "parent": "athletic"
+          },
+          {
+            "name": "activity",
+            "parent": "athletic"
+          }
+        ]
+      },
+      {
+        "name": "people",
+        "parent": "motivation ",
+        "children": [
+          {
+            "name": "generally",
+            "parent": "people"
+          },
+          {
+            "name": "assumed",
+            "parent": "people"
+          }
+        ]
+      },
+      {
+        "name": "sport",
+        "parent": "motivation ",
+        "children": [
+          {
+            "name": "participate",
+            "parent": "sport"
+          },
+          {
+            "name": "divided",
+            "parent": "sport"
+          }
+        ]
+      }
+    ]
+  }

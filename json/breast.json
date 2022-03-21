@@ -1,0 +1,62 @@
+{
+    "name": "breast",
+    "parent": "null",
+    "children": [
+      {
+        "name": "publication",
+        "parent": "breast",
+        "children": [
+          {
+            "name": "was",
+            "parent": "publication"
+          },
+          {
+            "name": "produced",
+            "parent": "publication"
+          }
+        ]
+      },
+      {
+        "name": "cancer",
+        "parent": "breast",
+        "children": [
+          {
+            "name": "lump",
+            "parent": "cancer"
+          },
+          {
+            "name": "means",
+            "parent": "cancer"
+          }
+        ]
+      },
+      {
+        "name": "women",
+        "parent": "breast",
+        "children": [
+          {
+            "name": "themselves",
+            "parent": "women"
+          },
+          {
+            "name": "accident",
+            "parent": "women"
+          }
+        ]
+      },
+      {
+        "name": "regular",
+        "parent": "breast",
+        "children": [
+          {
+            "name": "self-exam",
+            "parent": "regular"
+          },
+          {
+            "name": "others",
+            "parent": "regular"
+          }
+        ]
+      }
+    ]
+  }

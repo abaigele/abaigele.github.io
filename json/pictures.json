@@ -1,0 +1,20 @@
+{
+    "name": "images",
+    "parent": "null",
+    "children": [
+      {
+        "name": "data",
+        "parent": "images",
+        "children": [
+          {
+            "name": "spacecrafts",
+            "parent": "data"
+          },
+          {
+            "name": "planets",
+            "parent": "data"
+          }
+        ]
+      }
+    ]
+  }

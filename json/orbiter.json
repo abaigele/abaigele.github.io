@@ -1,0 +1,20 @@
+{
+    "name": "tank",
+    "parent": "null",
+    "children": [
+      {
+        "name": "thrust",
+        "parent": "tank",
+        "children": [
+          {
+            "name": "will",
+            "parent": "thrust"
+          },
+          {
+            "name": "separate",
+            "parent": "thrust"
+          }
+        ]
+      }
+    ]
+  }

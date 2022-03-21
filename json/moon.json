@@ -1,0 +1,34 @@
+{
+    "name": "lunar",
+    "parent": "null",
+    "children": [
+      {
+        "name": "beginning",
+        "parent": "lunar",
+        "children": [
+          {
+            "name": "rock",
+            "parent": "beginning"
+          },
+          {
+            "name": "soil",
+            "parent": "beginning"
+          }
+        ]
+      },
+      {
+        "name": "collected",
+        "parent": "lunar",
+        "children": [
+          {
+            "name": "different",
+            "parent": "collected"
+          },
+          {
+            "name": "places",
+            "parent": "collected"
+          }
+        ]
+      }
+    ]
+  }

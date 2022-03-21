@@ -1,0 +1,20 @@
+{
+    "name": "bond",
+    "parent": "null",
+    "children": [
+      {
+        "name": "telefon",
+        "parent": "bond",
+        "children": [
+          {
+            "name": "treated",
+            "parent": "telefon"
+          },
+          {
+            "name": "grey",
+            "parent": "telefon"
+          }
+        ]
+      }
+    ]
+  }

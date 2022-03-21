@@ -1,0 +1,34 @@
+{
+    "name": "brain",
+    "parent": "null",
+    "children": [
+      {
+        "name": "human",
+        "parent": "brain",
+        "children": [
+          {
+            "name": "compare",
+            "parent": "human"
+          },
+          {
+            "name": "computer",
+            "parent": "human"
+          }
+        ]
+      },
+      {
+        "name": "memory",
+        "parent": "brain",
+        "children": [
+          {
+            "name": "estimate",
+            "parent": "memory"
+          },
+          {
+            "name": "capacity",
+            "parent": "memory"
+          }
+        ]
+      }
+    ]
+  }

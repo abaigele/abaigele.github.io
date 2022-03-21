@@ -1,0 +1,62 @@
+{
+    "name": "discovery",
+    "parent": "null",
+    "children": [
+      {
+        "name": "minor",
+        "parent": "discovery",
+        "children": [
+          {
+            "name": "file",
+            "parent": "minor"
+          },
+          {
+            "name": "planet",
+            "parent": "minor"
+          }
+        ]
+      },
+      {
+        "name": "machine",
+        "parent": "discovery",
+        "children": [
+          {
+            "name": "readable",
+            "parent": "machine"
+          },
+          {
+            "name": "list",
+            "parent": "machine"
+          }
+        ]
+      },
+      {
+        "name": "data",
+        "parent": "discovery",
+        "children": [
+          {
+            "name": "contains",
+            "parent": "data"
+          },
+          {
+            "name": "complete",
+            "parent": "data"
+          }
+        ]
+      },
+      {
+        "name": "numbering",
+        "parent": "discovery",
+        "children": [
+          {
+            "name": "small",
+            "parent": "numbering"
+          },
+          {
+            "name": "changes",
+            "parent": "numbering"
+          }
+        ]
+      }
+    ]
+  }

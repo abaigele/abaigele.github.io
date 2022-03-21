@@ -1,0 +1,62 @@
+{
+    "name": "launch",
+    "parent": "null",
+    "children": [
+      {
+        "name": "payloads",
+        "parent": "launch",
+        "children": [
+          {
+            "name": "are",
+            "parent": "payloads"
+          },
+          {
+            "name": "delivered",
+            "parent": "payloads"
+          }
+        ]
+      },
+      {
+        "name": "flight",
+        "parent": "launch",
+        "children": [
+          {
+            "name": "closed",
+            "parent": "flight"
+          },
+          {
+            "name": "for",
+            "parent": "flight"
+          }
+        ]
+      },
+      {
+        "name": "extensive",
+        "parent": "launch",
+        "children": [
+          {
+            "name": "series",
+            "parent": "extensive"
+          },
+          {
+            "name": "checks",
+            "parent": "extensive"
+          }
+        ]
+      },
+      {
+        "name": "countdown",
+        "parent": "launch",
+        "children": [
+          {
+            "name": "during",
+            "parent": "countdown"
+          },
+          {
+            "name": "tanks",
+            "parent": "countdown"
+          }
+        ]
+      }
+    ]
+  }

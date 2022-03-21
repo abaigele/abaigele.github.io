@@ -1,0 +1,20 @@
+{
+    "name": "quantum",
+    "parent": "null",
+    "children": [
+      {
+        "name": "space",
+        "parent": "quantum",
+        "children": [
+          {
+            "name": "classical",
+            "parent": "space"
+          },
+          {
+            "name": "nonlocality",
+            "parent": "space"
+          }
+        ]
+      }
+    ]
+  }

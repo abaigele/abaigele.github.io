@@ -1,0 +1,34 @@
+{
+    "name": "activity",
+    "parent": "null",
+    "children": [
+      {
+        "name": "biggest",
+        "parent": "fusion",
+        "children": [
+          {
+            "name": "small",
+            "parent": "biggest"
+          },
+          {
+            "name": "half-lives",
+            "parent": "biggest"
+          }
+        ]
+      },
+      {
+        "name": "element",
+        "parent": "fusion",
+        "children": [
+          {
+            "name": "weight",
+            "parent": "element"
+          },
+          {
+            "name": "atomic",
+            "parent": "element"
+          }
+        ]
+      }
+    ]
+  }

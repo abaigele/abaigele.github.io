@@ -1,0 +1,34 @@
+{
+    "name": "archive",
+    "parent": "null",
+    "children": [
+      {
+        "name": "nuclear",
+        "parent": "archive",
+        "children": [
+          {
+            "name": "weapons",
+            "parent": "nuclear"
+          },
+          {
+            "name": "brings",
+            "parent": "nuclear"
+          }
+        ]
+      },
+      {
+        "name": "nations",
+        "parent": "archive",
+        "children": [
+          {
+            "name": "terrorist",
+            "parent": "nations"
+          },
+          {
+            "name": "parties",
+            "parent": "nations"
+          }
+        ]
+      }
+    ]
+  }

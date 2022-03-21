@@ -1,0 +1,62 @@
+{
+    "name": "garden",
+    "parent": "null",
+    "children": [
+      {
+        "name": "snails",
+        "parent": "garden",
+        "children": [
+          {
+            "name": "slugs",
+            "parent": "snails"
+          },
+          {
+            "name": "young",
+            "parent": "snails"
+          }
+        ]
+      },
+      {
+        "name": "remedies",
+        "parent": "garden",
+        "children": [
+          {
+            "name": "vinegar",
+            "parent": "remedies"
+          },
+          {
+            "name": "wine",
+            "parent": "remedies"
+          }
+        ]
+      },
+      {
+        "name": "cedar",
+        "parent": "garden",
+        "children": [
+          {
+            "name": "ground",
+            "parent": "cedar"
+          },
+          {
+            "name": "incense",
+            "parent": "cedar"
+          }
+        ]
+      },
+      {
+        "name": "shell",
+        "parent": "garden",
+        "children": [
+          {
+            "name": "spiral",
+            "parent": "shell"
+          },
+          {
+            "name": "while",
+            "parent": "shell"
+          }
+        ]
+      }
+    ]
+  }

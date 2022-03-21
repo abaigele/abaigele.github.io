@@ -1,0 +1,20 @@
+{
+    "name": "fusion",
+    "parent": "null",
+    "children": [
+      {
+        "name": "protium",
+        "parent": "fusion",
+        "children": [
+          {
+            "name": "atoms",
+            "parent": "protium"
+          },
+          {
+            "name": "fuse",
+            "parent": "protium"
+          }
+        ]
+      }
+    ]
+  }

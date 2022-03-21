@@ -1,0 +1,62 @@
+{
+    "name": "element",
+    "parent": "null",
+    "children": [
+      {
+        "name": "analysis",
+        "parent": "element",
+        "children": [
+          {
+            "name": "recent",
+            "parent": "analysis"
+          },
+          {
+            "name": "introduction",
+            "parent": "analysis"
+          }
+        ]
+      },
+      {
+        "name": "method",
+        "parent": "element",
+        "children": [
+          {
+            "name": "finite",
+            "parent": "method"
+          },
+          {
+            "name": "is",
+            "parent": "method"
+          }
+        ]
+      },
+      {
+        "name": "solution",
+        "parent": "element",
+        "children": [
+          {
+            "name": "processing",
+            "parent": "solution"
+          },
+          {
+            "name": "model",
+            "parent": "solution"
+          }
+        ]
+      },
+      {
+        "name": "stresses",
+        "parent": "element",
+        "children": [
+          {
+            "name": "displacement",
+            "parent": "stresses"
+          },
+          {
+            "name": "such",
+            "parent": "stresses"
+          }
+        ]
+      }
+    ]
+  }

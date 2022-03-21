@@ -1,0 +1,34 @@
+{
+    "name": "cable",
+    "parent": "null",
+    "children": [
+      {
+        "name": "learn",
+        "parent": "cable",
+        "children": [
+          {
+            "name": "teach",
+            "parent": "learn"
+          },
+          {
+            "name": "camcorder",
+            "parent": "learn"
+          }
+        ]
+      },
+      {
+        "name": "shack",
+        "parent": "cable",
+        "children": [
+          {
+            "name": "control",
+            "parent": "shack"
+          },
+          {
+            "name": "board",
+            "parent": "shack"
+          }
+        ]
+      }
+    ]
+  }

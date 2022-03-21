@@ -1,0 +1,62 @@
+{
+    "name": "cold",
+    "parent": "null",
+    "children": [
+      {
+        "name": "cigarette",
+        "parent": "cold",
+        "children": [
+          {
+            "name": "hold",
+            "parent": "cigarette"
+          },
+          {
+            "name": "lit",
+            "parent": "cigarette"
+          }
+        ]
+      },
+      {
+        "name": "tip",
+        "parent": "cold",
+        "children": [
+          {
+            "name": "thumb",
+            "parent": "tip"
+          },
+          {
+            "name": "finger",
+            "parent": "tip"
+          }
+        ]
+      },
+      {
+        "name": "they",
+        "parent": "cold",
+        "children": [
+          {
+            "name": "just",
+            "parent": "they"
+          },
+          {
+            "name": "bead",
+            "parent": "they"
+          }
+        ]
+      },
+      {
+        "name": "what",
+        "parent": "science",
+        "children": [
+          {
+            "name": "happens",
+            "parent": "what"
+          },
+          {
+            "name": "is",
+            "parent": "what"
+          }
+        ]
+      }
+    ]
+  }

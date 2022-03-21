@@ -1,0 +1,62 @@
+{
+    "name": "space",
+    "parent": "null",
+    "children": [
+      {
+        "name": "france",
+        "parent": "space",
+        "children": [
+          {
+            "name": "been",
+            "parent": "france"
+          },
+          {
+            "name": "active",
+            "parent": "france"
+          }
+        ]
+      },
+      {
+        "name": "company",
+        "parent": "space",
+        "children": [
+          {
+            "name": "set up",
+            "parent": "company"
+          },
+          {
+            "name": "market",
+            "parent": "company"
+          }
+        ]
+      },
+      {
+        "name": "current",
+        "parent": "space",
+        "children": [
+          {
+            "name": "scientific",
+            "parent": "current"
+          },
+          {
+            "name": "collaborations",
+            "parent": "current"
+          }
+        ]
+      },
+      {
+        "name": "effort",
+        "parent": "space",
+        "children": [
+          {
+            "name": "began",
+            "parent": "effort"
+          },
+          {
+            "name": "in",
+            "parent": "effort"
+          }
+        ]
+      }
+    ]
+  }

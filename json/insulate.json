@@ -1,0 +1,20 @@
+{
+    "name": "cities",
+    "parent": "null",
+    "children": [
+      {
+        "name": "measured",
+        "parent": "cities",
+        "children": [
+          {
+            "name": "atoms",
+            "parent": "data"
+          },
+          {
+            "name": "radiation",
+            "parent": "measured"
+          }
+        ]
+      }
+    ]
+  }

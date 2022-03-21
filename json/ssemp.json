@@ -1,0 +1,20 @@
+{
+    "name": "energy",
+    "parent": "null",
+    "children": [
+      {
+        "name": "coils",
+        "parent": "energy",
+        "children": [
+          {
+            "name": "enclosed",
+            "parent": "coils"
+          },
+          {
+            "name": "electromagnetic",
+            "parent": "coils"
+          }
+        ]
+      }
+    ]
+  }

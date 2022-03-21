@@ -1,0 +1,34 @@
+{
+    "name": "landing",
+    "parent": "null",
+    "children": [
+      {
+        "name": "orbiter",
+        "parent": "landing",
+        "children": [
+          {
+            "name": "vehicle",
+            "parent": "orbiter"
+          },
+          {
+            "name": "return",
+            "parent": "orbiter"
+          }
+        ]
+      },
+      {
+        "name": "deorbit",
+        "parent": "landing",
+        "children": [
+          {
+            "name": "burn",
+            "parent": "deorbit"
+          },
+          {
+            "name": "performed",
+            "parent": "deorbit"
+          }
+        ]
+      }
+    ]
+  }

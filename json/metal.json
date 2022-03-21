@@ -1,0 +1,34 @@
+{
+    "name": "metal",
+    "parent": "null",
+    "children": [
+      {
+        "name": "recent",
+        "parent": "metal",
+        "children": [
+          {
+            "name": "platinum",
+            "parent": "recent"
+          },
+          {
+            "name": "palladium",
+            "parent": "recent"
+          }
+        ]
+      },
+      {
+        "name": "degree",
+        "parent": "metal",
+        "children": [
+          {
+            "name": "temperatures",
+            "parent": "degree"
+          },
+          {
+            "name": "high",
+            "parent": "degree"
+          }
+        ]
+      }
+    ]
+  }

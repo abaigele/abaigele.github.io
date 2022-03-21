@@ -1,0 +1,62 @@
+{
+    "name": "black holes",
+    "parent": "null",
+    "children": [
+      {
+        "name": "much",
+        "parent": "black holes",
+        "children": [
+          {
+            "name": "more",
+            "parent": "much"
+          },
+          {
+            "name": "to",
+            "parent": "much"
+          }
+        ]
+      },
+      {
+        "name": "fact",
+        "parent": "black holes",
+        "children": [
+          {
+            "name": "your",
+            "parent": "fact"
+          },
+          {
+            "name": "eyes",
+            "parent": "fact"
+          }
+        ]
+      },
+      {
+        "name": "space",
+        "parent": "black holes",
+        "children": [
+          {
+            "name": "reason",
+            "parent": "space"
+          },
+          {
+            "name": "matter",
+            "parent": "space"
+          }
+        ]
+      },
+      {
+        "name": "gravitational",
+        "parent": "black holes",
+        "children": [
+          {
+            "name": "great",
+            "parent": "gravitational"
+          },
+          {
+            "name": "pull",
+            "parent": "gravitational"
+          }
+        ]
+      }
+    ]
+  }
