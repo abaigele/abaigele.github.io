@@ -1,110 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Ali Baigelenov - Personal Page</title>
-  <meta name="description" content="Personal webpage and portfolio for Ali Baigelenov, graduate student of Purdue University">
-  <meta name="author" content="Ali Baigelenov - 2016">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/ali-favicon.png">
-
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-89647364-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Outfit', -apple-system, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+    }
+    
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    
+    /* Header / Nav */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .site-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      color: #111;
+    }
+    
+    nav a {
+      margin-left: 32px;
+      color: #555;
+      font-size: 15px;
+    }
+    nav a:hover { color: #111; text-decoration: none; }
+    
+    /* Hero / Bio Section */
+    .hero {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 40px;
+      margin-bottom: 56px;
+    }
+    
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position: center top;
+    }
+    
+    .bio h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: #111;
+    }
+    
+    .bio p { margin-bottom: 14px; }
+    
+    .contact-links {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+    .contact-links a { margin-right: 20px; }
+    
+    /* Sections */
+    section {
+      margin-bottom: 48px;
+    }
+    
+    section h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #111;
+    }
+    
+    /* News */
+    .news-item {
+      display: grid;
+      grid-template-columns: 90px 1fr;
+      gap: 16px;
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+    .news-date { color: #666; }
+    
+    /* Publications */
+    .pub-item {
+      margin-bottom: 20px;
+    }
+    .pub-title {
+      font-weight: 600;
+      color: #111;
+    }
+    .pub-authors {
+      font-size: 15px;
+      color: #555;
+      margin: 4px 0;
+    }
+    .pub-venue {
+      font-size: 15px;
+      color: #666;
+      font-style: italic;
+    }
+    .pub-links {
+      margin-top: 6px;
+      font-size: 14px;
+    }
+    .pub-links a { margin-right: 12px; }
+    
+    /* Teaching */
+    .teaching-item {
+      margin-bottom: 12px;
+    }
+    .teaching-item strong { color: #111; }
+    
+    /* Footer */
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 14px;
+      color: #888;
+    }
+    
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .profile-photo { margin: 0 auto; }
+      .contact-links { text-align: center; }
+      nav a { margin-left: 16px; }
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="navbar">
-    <ul>
-      <li class="first-tab-menu">
-        <a class="active" href="index.html">Portfolio</a>
-      </li>
-      <li>
-        <a class="non-active" href="resume-2021.pdf">Resume</a>
-      </li>
-      <li>
-        <a class="non-active" href="about.html">About me</a>
-      </li>
-    </ul>
-  </div>
   <div class="container">
-    <div class="row">
-      <div class="u-full-width title-header animate-reveal animate-first" style="margin-top: 10%">
-        <h2 class="myname">Ali Baigelenov</h2>
-        <h4>UX Designer | PhD student studying HCI/Visualization</h4>
-      </div>
-      <div class="twelve columns momu animate-reveal animate-second">
-        <div class="purple-bar"></div>
-        <img class="u-max-full-width project-image" src="images/mymentor.png" alt="myMentor project image" />
-        <h4 class="project-title">myMentor</h4>
-        <p>A digital experience for building a welcoming, supportive, and nurturing environment on campus</p>
-        <a target="_blank" class="ghost-button-transition" href="https://docs.google.com/presentation/d/1U9_27HEgL0IRdN6D1OIxSiZTdl4n6QX9pC__90aglGA/edit?usp=sharing">View Project</a>
-    </div>
-      <div class="twelve columns momu animate-reveal animate-second">
-          <div class="purple-bar"></div>
-          <img class="u-max-full-width project-image" src="images/momu.png" alt="MomU project image" />
-          <h4 class="project-title">MomU</h4>
-          <p>Mobile application for single student mothers</p>
-          <a class="ghost-button-transition" href="momu.html">View Project</a>
-      </div>
-      <div class="twelve columns orientation animate-reveal animate-third">
-        <div class="purple-bar"></div>
-        <img class="u-max-full-width project-image" src="images/orientation.png" alt="Orientation project image" />
-        <h4 class="project-title">Orientation and Transition</h4>
-        <p>Website for Purdue University undergraduate students orientation</p>
-        <a class="ghost-button-transition" href="orientation.html">View Project</a>
-      </div>
-      <div class="twelve columns techconnect">
-        <div class="purple-bar"></div>
-        <img class="u-max-full-width project-image" src="images/techconnect.png" alt="TechConnect project image" />
-        <h4 class="project-title">TechConnect</h4>
-        <p>Web portal for students, faculty and industry professionals</p>
-        <a class="ghost-button-transition" href="techconnect.html">View Project</a>
-      </div>
-      <div class="twelve columns crowdgrader animate-reveal animate-second">
-          <div class="purple-bar"></div>
-          <img class="u-max-full-width project-image" src="images/crowdgrader.png" alt="CrowdGrader project image" />
-          <h4 class="project-title">CrowdGrader</h4>
-          <p>A crowdsourced grading system</p>
-          <a target="_blank" class="ghost-button-transition" href="http://crowd.ecn.purdue.edu/695/17sp/project/ab-ak/">View Project</a>
+    <header>
+      <div class="site-title">Ali Baigelenov</div>
+      <nav>
+        <a href="cv.pdf" target="_blank">CV</a>
+      </nav>
+    </header>
+    
+    <div class="hero">
+      <img src="avatar.png" alt="Your Name" class="profile-photo">
+      <div class="bio">
+        <h1>Ali Baigelenov</h1>
+        <p>
+          I am a PhD candidate in Technology at Purdue University, advised by 
+          <a href="https://paulcparsons.com/">Paul Parsons</a>. My research is situated at the intersection of human-computer interaction and information visualization, 
+          where I study technology-mediated creativity via examining how designers find and use inspiration, conceptualize creativity, and integrate AI tools into their creative practice.
+        </p>
+        <p>
+          I am also currently serving as a Senior Lecturer in the Department of Computer Science at <a href="https://sdu.edu.kz/">SDU University, Kazakhstan</a>. I am currently on the academic 
+          job market for positions starting Fall 2026.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:alioktl@gmail.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=is6EFNcAAAAJ&hl=en">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/ali-baigelenov/">LinkedIn</a>
+          <a href="https://orcid.org/0009-0003-6491-1874">ORCID</a>
+        </div>
       </div>
     </div>
+    
+   
+    
+    <footer>
+      &copy; 2025 Ali Baigelenov · Last updated December 2025
+    </footer>
   </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
