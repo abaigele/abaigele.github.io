@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — Ali Baigelenov</title>
+  <link rel="icon" href="ali-favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Outfit', -apple-system, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+    }
+    
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    
+    /* Header / Nav */
+    header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 60px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    
+    nav a {
+      margin-left: 32px;
+      color: #555;
+      font-size: 15px;
+    }
+    nav a:first-child { margin-left: 0; }
+    nav a:hover { color: #111; text-decoration: none; }
+    nav a.active { color: #111; font-weight: 500; }
+    
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #111;
+    }
+    
+    /* Year sections */
+    .year-section {
+      margin-bottom: 40px;
+    }
+    
+    .year-section h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 20px;
+    }
+    
+    /* Publication item */
+    .pub-item {
+      margin-bottom: 28px;
+      padding-left: 16px;
+      border-left: 3px solid #e5e5e5;
+    }
+    
+    .pub-title {
+      font-weight: 600;
+      font-size: 17px;
+      color: #111;
+      margin-bottom: 6px;
+    }
+    
+    .pub-authors {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    
+    .pub-venue {
+      font-size: 15px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+    
+    .pub-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    
+    .tag {
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    
+    .tag-full { background: #dbeafe; color: #1e40af; }
+    .tag-lbw { background: #fef3c7; color: #92400e; }
+    .tag-workshop { background: #f3e8ff; color: #6b21a8; }
+    .tag-poster { background: #e0e7ff; color: #3730a3; }
+    .tag-review { background: #f1f5f9; color: #475569; }
+    
+    .pub-links {
+      font-size: 14px;
+    }
+    .pub-links a { margin-right: 14px; }
+    
+    /* Footer */
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 14px;
+      color: #888;
+    }
+    
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav a { margin-left: 16px; }
+      nav a:first-child { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="index.html">about</a>
+        <a href="publications.html" class="active">publications</a>
+        <a href="cv.pdf" target="_blank">cv</a>
+      </nav>
+    </header>
+    
+    <h1>Publications</h1>
+    
+    <div class="year-section">
+      <h2>2025</h2>
+      
+      <div class="pub-item">
+        <div class="pub-title">How Visualization Designers Perceive and Use Inspiration</div>
+        <div class="pub-authors"><strong>Ali Baigelenov</strong>, Prakash Shukla, Paul Parsons</div>
+        <div class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems</div>
+        <div class="pub-tags">
+          <span class="tag tag-full">Full Paper</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3706598.3714191">PDF</a>
+          <a href="https://doi.org/10.1145/3706598.3714191">DOI</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">Are Cognitive Biases as Important as they Seem for Data Visualization?</div>
+        <div class="pub-authors"><strong>Ali Baigelenov</strong>, Prakash Shukla, Zixu Zhang, Paul Parsons</div>
+        <div class="pub-venue">ACM CHI Extended Abstracts</div>
+        <div class="pub-tags">
+          <span class="tag tag-lbw">Late-Breaking Work</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2503.03852">PDF</a>
+          <a href="https://doi.org/10.1145/3706599.3719926">DOI</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">De-skilling, Cognitive Offloading, and Misplaced Responsibilities: Potential Ironies of AI-Assisted Design</div>
+        <div class="pub-authors">Prakash Shukla, Phuong Ngo Ngoc Bui, Sean Levy, Maxwell Kowalski, <strong>Ali Baigelenov</strong>, Paul Parsons</div>
+        <div class="pub-venue">ACM CHI Extended Abstracts</div>
+        <div class="pub-tags">
+          <span class="tag tag-lbw">Late-Breaking Work</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2503.03924?">PDF</a>
+          <a href="https://doi.org/10.1145/3706599.3719931">DOI</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="year-section">
+      <h2>2023</h2>
+      
+      <div class="pub-item">
+        <div class="pub-title">Developing Framing Judgment Ability: Student Perceptions from a Graduate UX Design Program</div>
+        <div class="pub-authors">Paul Parsons, Prakash Shukla, <strong>Ali Baigelenov</strong>, Colin Gray</div>
+        <div class="pub-venue">Proceedings of the 5th Annual Symposium on HCI Education</div>
+        <div class="pub-tags">
+          <span class="tag tag-workshop">Symposium</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3587399.3587401">PDF</a>
+          <a href="https://doi.org/10.1145/3706599.3719931">DOI</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="year-section">
+      <h2>2020</h2>
+      
+      <div class="pub-item">
+        <div class="pub-title">Design Judgment in Data Visualization Practice</div>
+        <div class="pub-authors">Paul Parsons, Colin Gray, <strong>Ali Baigelenov</strong>, Ian Carr</div>
+        <div class="pub-venue">IEEE Visualization Conference (VIS)</div>
+        <div class="pub-tags">
+          <span class="tag tag-lbw">Short Paper</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2009.02628">PDF</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">What Design Methods do DataVis Practitioners Know and Use?</div>
+        <div class="pub-authors">Paul Parsons, <strong>Ali Baigelenov</strong>, Ya-Hsin Hung, Connor Schrank</div>
+        <div class="pub-venue">ACM CHI Extended Abstracts</div>
+        <div class="pub-tags">
+          <span class="tag tag-lbw">Late-Breaking Work</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://dl.acm.org/doi/abs/10.1145/3334480.3383048">LINK</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="year-section">
+      <h2>2018</h2>
+      
+      <div class="pub-item">
+        <div class="pub-title">Interactivity Factors in Visualization-Based Exploratory Search</div>
+        <div class="pub-authors"><strong>Ali Baigelenov</strong>, Paul Parsons</div>
+        <div class="pub-venue">ACM CHI Extended Abstracts</div>
+        <div class="pub-tags">
+          <span class="tag tag-lbw">Late-Breaking Work</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1145/3170427.3188558">DOI</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">Toward an Analysis of Practitioner-Oriented Resources for Visualization Design</div>
+        <div class="pub-authors">Paul Parsons, Ya-Hsin Hung, <strong>Ali Baigelenov</strong></div>
+        <div class="pub-venue">IEEE VIS Poster Abstracts</div>
+        <div class="pub-tags">
+          <span class="tag tag-poster">Poster</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://www.dvclab.net/wp-content/uploads/2019/02/PARSONSVIS2018.pdf">PDF</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="year-section">
+      <h2>2017</h2>
+      
+      <div class="pub-item">
+        <div class="pub-title">Reexamining the Cognitive Utility of 3D Visualizations Using Augmented Reality Holograms</div>
+        <div class="pub-authors">Michael Saenz, <strong>Ali Baigelenov</strong>, Ya-Hsin Hung, Paul Parsons</div>
+        <div class="pub-venue">Workshop on Immersive Analytics (Immersive 2017)</div>
+        <div class="pub-tags">
+          <span class="tag tag-workshop">Workshop</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://www.dvclab.net/wp-content/uploads/2020/02/Saenz-et-al.-2017-Reexamining-the-cognitive-utility-of-3D-visualizations-using-augmented-reality-holograms.pdf">PDF</a>
+        </div>
+      </div>
+      
+      <div class="pub-item">
+        <div class="pub-title">Toward an Understanding of Observational Advantages in Information Visualization</div>
+        <div class="pub-authors"><strong>Ali Baigelenov</strong>, Michael Saenz, Ya-Hsin Hung, Paul Parsons</div>
+        <div class="pub-venue">IEEE VIS Poster Abstracts</div>
+        <div class="pub-tags">
+          <span class="tag tag-poster">Poster</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://www.dvclab.net/wp-content/uploads/2019/02/Baigelenov-et-al.-Toward-an-Understanding-of-Observational-Advantage.pdf">PDF</a>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      &copy; 2025 Ali Baigelenov
+    </footer>
+  </div>
+</body>
+</html>

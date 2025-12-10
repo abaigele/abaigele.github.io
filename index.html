@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ali Baigelenov</title>
+  <link rel="icon" href="ali-favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -29,18 +30,11 @@
     /* Header / Nav */
     header {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
       margin-bottom: 60px;
       padding-bottom: 20px;
       border-bottom: 1px solid #e5e5e5;
-    }
-    
-    .site-title {
-      font-family: 'Outfit', sans-serif;
-      font-size: 24px;
-      font-weight: 600;
-      color: #111;
     }
     
     nav a {
@@ -48,6 +42,7 @@
       color: #555;
       font-size: 15px;
     }
+    nav a:first-child { margin-left: 0; }
     nav a:hover { color: #111; text-decoration: none; }
     
     /* Hero / Bio Section */
@@ -68,9 +63,9 @@
     
     .bio h1 {
       font-family: 'Outfit', sans-serif;
-      font-size: 28px;
+      font-size: 36px;
       font-weight: 600;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
       color: #111;
     }
     
@@ -131,12 +126,6 @@
     }
     .pub-links a { margin-right: 12px; }
     
-    /* Teaching */
-    .teaching-item {
-      margin-bottom: 12px;
-    }
-    .teaching-item strong { color: #111; }
-    
     /* Footer */
     footer {
       margin-top: 60px;
@@ -155,25 +144,27 @@
       .profile-photo { margin: 0 auto; }
       .contact-links { text-align: center; }
       nav a { margin-left: 16px; }
+      nav a:first-child { margin-left: 0; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <div class="site-title">Ali Baigelenov</div>
       <nav>
-        <a href="cv.pdf" target="_blank">CV</a>
+        <a href="index.html">about</a>
+        <a href="publications.html">publications</a>
+        <a href="cv.pdf" target="_blank">cv</a>
       </nav>
     </header>
     
     <div class="hero">
-      <img src="avatar.png" alt="Your Name" class="profile-photo">
+      <img src="avatar.png" alt="Ali Baigelenov" class="profile-photo">
       <div class="bio">
         <h1>Ali Baigelenov</h1>
         <p>
-          I am a PhD candidate in Technology at Purdue University, advised by 
-          <a href="https://paulcparsons.com/">Paul Parsons</a>. My research is situated at the intersection of human-computer interaction and information visualization, 
+          I am a PhD candidate in Technology at <a href="https://www.purdue.edu/">Purdue University</a>, advised by 
+          <a href="https://paulcparsons.com/">Dr. Paul Parsons</a>. My research is situated at the intersection of human-computer interaction and information visualization, 
           where I study technology-mediated creativity via examining how designers find and use inspiration, conceptualize creativity, and integrate AI tools into their creative practice.
         </p>
         <p>
@@ -189,10 +180,20 @@
       </div>
     </div>
     
-   
+    <section id="news">
+      <h2>News</h2>
+      <div class="news-item">
+        <span class="news-date">Apr 2025</span>
+        <span>Presented our paper at CHI 2025 in Yokohama, Japan.</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Feb 2025</span>
+        <span>One full paper and two LBWs accepted to CHI 2025.</span>
+      </div>
+    </section>
     
     <footer>
-      &copy; 2025 Ali Baigelenov · Last updated December 2025
+      &copy; 2025 Ali Baigelenov
     </footer>
   </div>
 </body>
