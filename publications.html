@@ -7,19 +7,48 @@
   <link rel="icon" href="ali-favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    if (localStorage.getItem('darkMode') === 'true' || 
+        (!localStorage.getItem('darkMode') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --bg: #fff;
+      --text: #333;
+      --text-heading: #111;
+      --text-muted: #666;
+      --text-nav: #555;
+      --border: #e5e5e5;
+      --accent: #f97316;
+      --accent-hover: #ea580c;
+    }
+
+    :root.dark {
+      --bg: #121212;
+      --text: #e0e0e0;
+      --text-heading: #fff;
+      --text-muted: #999;
+      --text-nav: #aaa;
+      --border: #333;
+      --accent: #fb923c;
+      --accent-hover: #f97316;
+    }
     
     body {
       font-family: 'Outfit', -apple-system, sans-serif;
       font-size: 17px;
       line-height: 1.6;
-      color: #333;
-      background: #fff;
+      color: var(--text);
+      background: var(--bg);
+      transition: background 0.3s, color 0.3s;
     }
     
-    a { color: #2563eb; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); text-decoration: underline; }
     
     .container {
       max-width: 820px;
@@ -34,24 +63,50 @@
       align-items: center;
       margin-bottom: 60px;
       padding-bottom: 20px;
-      border-bottom: 1px solid #e5e5e5;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    nav {
+      display: flex;
+      align-items: center;
     }
     
     nav a {
       margin-left: 32px;
-      color: #555;
+      color: var(--text-nav);
       font-size: 15px;
     }
     nav a:first-child { margin-left: 0; }
-    nav a:hover { color: #111; text-decoration: none; }
-    nav a.active { color: #111; font-weight: 500; }
+    nav a:hover { color: var(--text-heading); text-decoration: none; }
+    nav a.active { color: var(--text-heading); font-weight: 500; }
+    
+    /* Theme toggle */
+    .theme-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0;
+      margin-left: 32px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.2s;
+    }
+
+    .theme-toggle:hover {
+      transform: scale(1.15);
+    }
+
+    .theme-toggle .moon { display: none; }
+    :root.dark .theme-toggle .sun { display: none; }
+    :root.dark .theme-toggle .moon { display: block; }
     
     h1 {
       font-family: 'Outfit', sans-serif;
       font-size: 36px;
       font-weight: 600;
       margin-bottom: 40px;
-      color: #111;
+      color: var(--text-heading);
     }
     
     /* Year sections */
@@ -63,7 +118,7 @@
       font-family: 'Outfit', sans-serif;
       font-size: 22px;
       font-weight: 600;
-      color: #111;
+      color: var(--text-heading);
       margin-bottom: 20px;
     }
     
@@ -71,25 +126,35 @@
     .pub-item {
       margin-bottom: 28px;
       padding-left: 16px;
-      border-left: 3px solid #e5e5e5;
+      border-left: 3px solid var(--border);
+      transition: border-color 0.2s;
+    }
+    
+    .pub-item:hover {
+      border-left-color: var(--accent);
     }
     
     .pub-title {
       font-weight: 600;
       font-size: 17px;
-      color: #111;
+      color: var(--text-heading);
       margin-bottom: 6px;
     }
     
     .pub-authors {
       font-size: 15px;
-      color: #555;
+      color: var(--text-muted);
       margin-bottom: 6px;
+    }
+    
+    .pub-authors strong {
+      font-weight: 600;
+      color: var(--text-heading);
     }
     
     .pub-venue {
       font-size: 15px;
-      color: #666;
+      color: var(--text-muted);
       margin-bottom: 8px;
     }
     
@@ -107,11 +172,17 @@
       font-weight: 500;
     }
     
-    .tag-full { background: #dbeafe; color: #1e40af; }
+    .tag-full { background: #ffedd5; color: #9a3412; }
     .tag-lbw { background: #fef3c7; color: #92400e; }
     .tag-workshop { background: #f3e8ff; color: #6b21a8; }
     .tag-poster { background: #e0e7ff; color: #3730a3; }
-    .tag-review { background: #f1f5f9; color: #475569; }
+    .tag-appear { background: #d1fae5; color: #065f46; }
+    
+    :root.dark .tag-full { background: #431407; color: #fdba74; }
+    :root.dark .tag-lbw { background: #451a03; color: #fcd34d; }
+    :root.dark .tag-workshop { background: #3b0764; color: #d8b4fe; }
+    :root.dark .tag-poster { background: #1e1b4b; color: #a5b4fc; }
+    :root.dark .tag-appear { background: #064e3b; color: #6ee7b7; }
     
     .pub-links {
       font-size: 14px;
@@ -122,15 +193,16 @@
     footer {
       margin-top: 60px;
       padding-top: 20px;
-      border-top: 1px solid #e5e5e5;
+      border-top: 1px solid var(--border);
       font-size: 14px;
-      color: #888;
+      color: var(--text-muted);
     }
     
     /* Responsive */
     @media (max-width: 600px) {
       nav a { margin-left: 16px; }
       nav a:first-child { margin-left: 0; }
+      .theme-toggle { margin-left: 16px; }
     }
   </style>
 </head>
@@ -141,10 +213,28 @@
         <a href="index.html">about</a>
         <a href="publications.html" class="active">publications</a>
         <a href="cv.pdf" target="_blank">cv</a>
+        <button class="theme-toggle" onclick="toggleDark()" aria-label="Toggle dark mode">
+          <span class="sun">☀️</span>
+          <span class="moon">🌙</span>
+        </button>
       </nav>
     </header>
     
     <h1>Publications</h1>
+    
+    <div class="year-section">
+      <h2>2026</h2>
+      
+      <div class="pub-item">
+        <div class="pub-title">Talking Inspiration: A Discourse Analysis of Data Visualization Podcasts</div>
+        <div class="pub-authors"><strong>Ali Baigelenov</strong>, Prakash Shukla, Phuong Ngo Ngoc Bui, Paul Parsons</div>
+        <div class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems</div>
+        <div class="pub-tags">
+          <span class="tag tag-full">Full Paper</span>
+          <span class="tag tag-appear">To Appear</span>
+        </div>
+      </div>
+    </div>
     
     <div class="year-section">
       <h2>2025</h2>
@@ -291,8 +381,15 @@
     </div>
     
     <footer>
-      &copy; 2025 Ali Baigelenov
+      &copy; 2026 Ali Baigelenov
     </footer>
   </div>
+
+  <script>
+    function toggleDark() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('darkMode', document.documentElement.classList.contains('dark'));
+    }
+  </script>
 </body>
 </html>
