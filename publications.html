@@ -2,402 +2,151 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications — Ali Baigelenov</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications | Ali Baigelenov</title>
+  <meta name="description" content="Publications by Ali Baigelenov in HCI, visualization, and design cognition.">
+  <meta name="color-scheme" content="light dark">
   <link rel="icon" href="ali-favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-    body {
-      font-family: 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
-      background: #f4f4f2;
-      color: #111;
-      font-size: 16px;
-      line-height: 1.55;
-    }
-    
-    .container {
-      max-width: 1040px;
-      margin: 0 auto;
-      padding: 48px 32px 80px;
-    }
-    
-    /* Header */
-    .grid-header {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 32px;
-      align-items: end;
-      padding-bottom: 24px;
-      border-bottom: 3px solid #111;
-      margin-bottom: 48px;
-    }
-    
-    .grid-header h1 {
-      font-size: clamp(36px, 5.5vw, 60px);
-      font-weight: 700;
-      letter-spacing: -0.035em;
-      line-height: 0.95;
-      text-transform: uppercase;
-    }
-    
-    .grid-header h1 .accent { color: #e3342f; }
-    
-    nav {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 6px;
-      font-size: 14px;
-      font-weight: 500;
-    }
-    
-    nav a {
-      color: #111;
-      text-decoration: none;
-    }
-    
-    nav a::before {
-      content: "→ ";
-      opacity: 0;
-      transition: opacity 0.15s;
-    }
-    
-    nav a:hover::before,
-    nav a.current::before {
-      opacity: 1;
-      color: #e3342f;
-    }
-    
-    /* Year sections */
-    .year-section {
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      gap: 48px;
-      padding: 32px 0;
-      border-bottom: 1px solid #d5d5d2;
-    }
-    
-    .year-section:last-of-type {
-      border-bottom: none;
-    }
-    
-    .year-label {
-      font-size: 32px;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-    }
-    
-    /* Publication item */
-    .pub-item {
-      margin-bottom: 28px;
-    }
-    
-    .pub-item:last-child {
-      margin-bottom: 0;
-    }
-    
-    .pub-title {
-      font-weight: 700;
-      font-size: 17px;
-      margin-bottom: 6px;
-      max-width: 62ch;
-    }
-    
-    .pub-authors {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 4px;
-    }
-    
-    .pub-authors strong {
-      font-weight: 700;
-      color: #111;
-    }
-    
-    .pub-venue {
-      font-size: 14px;
-      color: #777;
-      margin-bottom: 8px;
-    }
-    
-    .pub-meta {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-    
-    .tag {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 3px 8px;
-      border: 1px solid #111;
-    }
-    
-    .tag-full { background: #111; color: #f4f4f2; }
-    .tag-appear { border-color: #e3342f; color: #e3342f; }
-    
-    .pub-links {
-      font-size: 13px;
-      font-weight: 500;
-      display: flex;
-      gap: 14px;
-    }
-    
-    .pub-links a {
-      color: #111;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-decoration-color: #e3342f;
-      text-underline-offset: 3px;
-    }
-    
-    .pub-links a:hover { color: #e3342f; }
-    
-    /* Footer */
-    footer {
-      margin-top: 64px;
-      padding-top: 16px;
-      border-top: 3px solid #111;
-      display: flex;
-      justify-content: space-between;
-      font-size: 11px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #777;
-    }
-    
-    /* Responsive */
-    @media (max-width: 720px) {
-      .grid-header { grid-template-columns: 1fr; align-items: start; }
-      nav { flex-direction: row; gap: 18px; align-items: flex-start; }
-      .year-section { grid-template-columns: 1fr; gap: 16px; }
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="grid-header">
-      <h1>Publications<span class="accent">.</span></h1>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="publications.html" class="current">Publications</a>
-        <a href="cv.pdf" target="_blank">CV</a>
-      </nav>
+<div class="page">
+  <header class="side">
+    <div>
+      <a class="name" href="index.html">Ali Baigelenov</a>
+      <p class="tagline">Assistant Professor and Chair at <a href="https://www.kimep.kz/en/">KIMEP University.</a></p>
     </div>
-    
-    <div class="year-section">
-      <div class="year-label">2026</div>
-      <div class="year-pubs">
-        <div class="pub-item">
-          <div class="pub-title">Situatedness in Visualization Design: Making Unresolved Work Actionable</div>
-          <div class="pub-authors">Paul Parsons, Prakash Shukla, Phuong Ngo Ngoc Bui, Srishti Agrawal, <strong>Ali Baigelenov</strong></div>
-          <div class="pub-venue">IEEE Visualization Conference (VIS)</div>
-          <div class="pub-meta">
-            <span class="tag">To Appear</span>
-            <span class="pub-links">
-              <a href="https://arxiv.org/pdf/2608.08274">PDF</a>
-            </span>
-          </div>
-        </div>
+    <nav aria-label="Main">
+      <a href="index.html">About</a>
+      <a href="publications.html" aria-current="page">Publications</a>
+      <a href="talks.html">Talks</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
 
-        <div class="pub-item">
-          <div class="pub-title">Design Knowledge in Data Visualization: Mapping the Epistemic Landscape</div>
-          <div class="pub-authors">Paul Parsons, Colin Gray, <strong>Ali Baigelenov</strong></div>
-          <div class="pub-venue">IEEE Visualization Conference (VIS)</div>
-          <div class="pub-meta">
-            <span class="tag">To Appear</span>
-            <span class="pub-links">
-              <a href="https://arxiv.org/pdf/2608.08270">PDF</a>
-            </span>
-          </div>
-        </div>
+  <main>
+    <h1 class="visually-hidden">Papers</h1>
+    <div id="papers">
+      <section class="year" aria-label="2026">
+        <h2>2026</h2>
+        <article class="entry">
+          <span class="title">Inspiration in Visualization Design: Perception, Discourse, and Epistemic Mediation</span>
+          <span class="meta"><span class="me">Ali Baigelenov</span></span>
+          <span class="meta"><span class="kind major">PhD dissertation</span>Purdue University</span>
+          <span class="links"><a href="https://doi.org/10.25394/PGS.32098147">DOI</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Situatedness in Visualization Design: Making Unresolved Work Actionable</span>
+          <span class="meta">Paul Parsons, Prakash Shukla, Phuong Ngo Ngoc Bui, Srishti Agrawal, <span class="me">Ali Baigelenov</span></span>
+          <span class="meta"><span class="kind major">Full paper</span>IEEE Visualization Conference (VIS), to appear</span>
+          <span class="links"><a href="https://arxiv.org/pdf/2608.08274">PDF</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Design Knowledge in Data Visualization: Mapping the Epistemic Landscape</span>
+          <span class="meta">Paul Parsons, Colin Gray, <span class="me">Ali Baigelenov</span></span>
+          <span class="meta"><span class="kind major">Full paper</span>IEEE Visualization Conference (VIS), to appear</span>
+          <span class="links"><a href="https://arxiv.org/pdf/2608.08270">PDF</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Bias Reconsidered: Ecologically Rational Heuristics in Design Cognition</span>
+          <span class="meta">Paul Parsons, Srishti Agrawal, Phuong Ngo Ngoc Bui, Prakash Shukla, <span class="me">Ali Baigelenov</span></span>
+          <span class="meta"><span class="kind major">Full paper</span>Design Research Society Conference (DRS)</span>
+          <span class="links"><a href="https://www.dvclab.net/wp-content/uploads/2026/03/DRS2026_FINAL.pdf">PDF</a><a href="https://doi.org/10.21606/drs.2026.2581">DOI</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Talking Inspiration: A Discourse Analysis of Data Visualization Podcasts</span>
+          <span class="meta"><span class="me">Ali Baigelenov</span>, Prakash Shukla, Phuong Ngo Ngoc Bui, Paul Parsons</span>
+          <span class="meta"><span class="kind major">Full paper</span>ACM CHI Conference on Human Factors in Computing Systems</span>
+          <span class="links"><a href="https://arxiv.org/pdf/2602.02397">PDF</a><a href="https://doi.org/10.1145/3772318.3791537">DOI</a></span>
+        </article>
+      </section>
 
-        <div class="pub-item">
-          <div class="pub-title">Bias Reconsidered: Ecologically Rational Heuristics in Design Cognition</div>
-          <div class="pub-authors">Paul Parsons, Srishti Agrawal, Phuong Ngo Ngoc Bui, Prakash Shukla, <strong>Ali Baigelenov</strong></div>
-          <div class="pub-venue">Design Research Society 55th Conference</div>
-          <div class="pub-meta">
-            <span class="tag tag-full">Full Paper</span>
-            <span class="pub-links">
-              <a href="https://www.dvclab.net/wp-content/uploads/2026/03/DRS2026_FINAL.pdf">PDF</a>
-              <a href="https://doi.org/10.21606/drs.2026.2581">DOI</a>
-            </span>
-          </div>
-        </div>
-        
-        <div class="pub-item">
-          <div class="pub-title">Talking Inspiration: A Discourse Analysis of Data Visualization Podcasts</div>
-          <div class="pub-authors"><strong>Ali Baigelenov</strong>, Prakash Shukla, Phuong Ngo Ngoc Bui, Paul Parsons</div>
-          <div class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems</div>
-          <div class="pub-meta">
-            <span class="tag tag-full">Full Paper</span>
-            <span class="pub-links">
-              <a href="https://arxiv.org/pdf/2602.02397">PDF</a>
-              <a href="https://doi.org/10.1145/3772318.3791537">DOI</a>
-            </span>
-          </div>
-        </div>
-      </div>
+      <section class="year" aria-label="2025">
+        <h2>2025</h2>
+        <article class="entry">
+          <span class="title">How Visualization Designers Perceive and Use Inspiration</span>
+          <span class="meta"><span class="me">Ali Baigelenov</span>, Prakash Shukla, Paul Parsons</span>
+          <span class="meta"><span class="kind major">Full paper</span>ACM CHI Conference on Human Factors in Computing Systems</span>
+          <span class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3706598.3714191">PDF</a><a href="https://doi.org/10.1145/3706598.3714191">DOI</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Are Cognitive Biases as Important as they Seem for Data Visualization?</span>
+          <span class="meta"><span class="me">Ali Baigelenov</span>, Prakash Shukla, Zixu Zhang, Paul Parsons</span>
+          <span class="meta"><span class="kind">Extended abstract</span>ACM CHI Conference on Human Factors in Computing Systems</span>
+          <span class="links"><a href="https://arxiv.org/pdf/2503.03852">PDF</a><a href="https://doi.org/10.1145/3706599.3719926">DOI</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">De-skilling, Cognitive Offloading, and Misplaced Responsibilities: Potential Ironies of AI-Assisted Design</span>
+          <span class="meta">Prakash Shukla, Phuong Ngo Ngoc Bui, Sean Levy, Maxwell Kowalski, <span class="me">Ali Baigelenov</span>, Paul Parsons</span>
+          <span class="meta"><span class="kind">Extended abstract</span>ACM CHI Conference on Human Factors in Computing Systems</span>
+          <span class="links"><a href="https://arxiv.org/pdf/2503.03924">PDF</a><a href="https://doi.org/10.1145/3706599.3719931">DOI</a></span>
+        </article>
+      </section>
+
+      <section class="year" aria-label="2023">
+        <h2>2023</h2>
+        <article class="entry">
+          <span class="title">Developing Framing Judgment Ability: Student Perceptions from a Graduate UX Design Program</span>
+          <span class="meta">Paul Parsons, Prakash Shukla, <span class="me">Ali Baigelenov</span>, Colin Gray</span>
+          <span class="meta"><span class="kind">Symposium paper</span>Annual Symposium on HCI Education (EduCHI)</span>
+          <span class="links"><a href="https://dl.acm.org/doi/pdf/10.1145/3587399.3587401">PDF</a></span>
+        </article>
+      </section>
+
+      <section class="year" aria-label="2020">
+        <h2>2020</h2>
+        <article class="entry">
+          <span class="title">Design Judgment in Data Visualization Practice</span>
+          <span class="meta">Paul Parsons, Colin Gray, <span class="me">Ali Baigelenov</span>, Ian Carr</span>
+          <span class="meta"><span class="kind">Short paper</span>IEEE Visualization Conference (VIS)</span>
+          <span class="links"><a href="https://arxiv.org/pdf/2009.02628">PDF</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">What Design Methods do DataVis Practitioners Know and Use?</span>
+          <span class="meta">Paul Parsons, <span class="me">Ali Baigelenov</span>, Ya-Hsin Hung, Connor Schrank</span>
+          <span class="meta"><span class="kind">Extended abstract</span>ACM CHI Conference on Human Factors in Computing Systems</span>
+          <span class="links"><a href="https://dl.acm.org/doi/abs/10.1145/3334480.3383048">Link</a></span>
+        </article>
+      </section>
+
+      <section class="year" aria-label="2018">
+        <h2>2018</h2>
+        <article class="entry">
+          <span class="title">Interactivity Factors in Visualization-Based Exploratory Search</span>
+          <span class="meta"><span class="me">Ali Baigelenov</span>, Paul Parsons</span>
+          <span class="meta"><span class="kind">Extended abstract</span>ACM CHI Conference on Human Factors in Computing Systems</span>
+          <span class="links"><a href="https://doi.org/10.1145/3170427.3188558">DOI</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Toward an Analysis of Practitioner-Oriented Resources for Visualization Design</span>
+          <span class="meta">Paul Parsons, Ya-Hsin Hung, <span class="me">Ali Baigelenov</span></span>
+          <span class="meta"><span class="kind">Poster</span>IEEE Visualization Conference (VIS)</span>
+          <span class="links"><a href="https://www.dvclab.net/wp-content/uploads/2019/02/PARSONSVIS2018.pdf">PDF</a></span>
+        </article>
+      </section>
+
+      <section class="year" aria-label="2017">
+        <h2>2017</h2>
+        <article class="entry">
+          <span class="title">Reexamining the Cognitive Utility of 3D Visualizations Using Augmented Reality Holograms</span>
+          <span class="meta">Michael Saenz, <span class="me">Ali Baigelenov</span>, Ya-Hsin Hung, Paul Parsons</span>
+          <span class="meta"><span class="kind">Workshop paper</span>Workshop on Immersive Analytics</span>
+          <span class="links"><a href="https://www.dvclab.net/wp-content/uploads/2020/02/Saenz-et-al.-2017-Reexamining-the-cognitive-utility-of-3D-visualizations-using-augmented-reality-holograms.pdf">PDF</a></span>
+        </article>
+        <article class="entry">
+          <span class="title">Toward an Understanding of Observational Advantages in Information Visualization</span>
+          <span class="meta"><span class="me">Ali Baigelenov</span>, Michael Saenz, Ya-Hsin Hung, Paul Parsons</span>
+          <span class="meta"><span class="kind">Poster</span>IEEE Visualization Conference (VIS)</span>
+          <span class="links"><a href="https://www.dvclab.net/wp-content/uploads/2019/02/Baigelenov-et-al.-Toward-an-Understanding-of-Observational-Advantage.pdf">PDF</a></span>
+        </article>
+      </section>
     </div>
-    
-    <div class="year-section">
-      <div class="year-label">2025</div>
-      <div class="year-pubs">
-        <div class="pub-item">
-          <div class="pub-title">How Visualization Designers Perceive and Use Inspiration</div>
-          <div class="pub-authors"><strong>Ali Baigelenov</strong>, Prakash Shukla, Paul Parsons</div>
-          <div class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems</div>
-          <div class="pub-meta">
-            <span class="tag tag-full">Full Paper</span>
-            <span class="pub-links">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3706598.3714191">PDF</a>
-              <a href="https://doi.org/10.1145/3706598.3714191">DOI</a>
-            </span>
-          </div>
-        </div>
-        
-        <div class="pub-item">
-          <div class="pub-title">Are Cognitive Biases as Important as they Seem for Data Visualization?</div>
-          <div class="pub-authors"><strong>Ali Baigelenov</strong>, Prakash Shukla, Zixu Zhang, Paul Parsons</div>
-          <div class="pub-venue">ACM CHI Extended Abstracts</div>
-          <div class="pub-meta">
-            <span class="tag">Late-Breaking Work</span>
-            <span class="pub-links">
-              <a href="https://arxiv.org/pdf/2503.03852">PDF</a>
-              <a href="https://doi.org/10.1145/3706599.3719926">DOI</a>
-            </span>
-          </div>
-        </div>
-        
-        <div class="pub-item">
-          <div class="pub-title">De-skilling, Cognitive Offloading, and Misplaced Responsibilities: Potential Ironies of AI-Assisted Design</div>
-          <div class="pub-authors">Prakash Shukla, Phuong Ngo Ngoc Bui, Sean Levy, Maxwell Kowalski, <strong>Ali Baigelenov</strong>, Paul Parsons</div>
-          <div class="pub-venue">ACM CHI Extended Abstracts</div>
-          <div class="pub-meta">
-            <span class="tag">Late-Breaking Work</span>
-            <span class="pub-links">
-              <a href="https://arxiv.org/pdf/2503.03924?">PDF</a>
-              <a href="https://doi.org/10.1145/3706599.3719931">DOI</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="year-section">
-      <div class="year-label">2023</div>
-      <div class="year-pubs">
-        <div class="pub-item">
-          <div class="pub-title">Developing Framing Judgment Ability: Student Perceptions from a Graduate UX Design Program</div>
-          <div class="pub-authors">Paul Parsons, Prakash Shukla, <strong>Ali Baigelenov</strong>, Colin Gray</div>
-          <div class="pub-venue">Proceedings of the 5th Annual Symposium on HCI Education</div>
-          <div class="pub-meta">
-            <span class="tag">Symposium</span>
-            <span class="pub-links">
-              <a href="https://dl.acm.org/doi/pdf/10.1145/3587399.3587401">PDF</a>
-              <a href="https://doi.org/10.1145/3706599.3719931">DOI</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="year-section">
-      <div class="year-label">2020</div>
-      <div class="year-pubs">
-        <div class="pub-item">
-          <div class="pub-title">Design Judgment in Data Visualization Practice</div>
-          <div class="pub-authors">Paul Parsons, Colin Gray, <strong>Ali Baigelenov</strong>, Ian Carr</div>
-          <div class="pub-venue">IEEE Visualization Conference (VIS)</div>
-          <div class="pub-meta">
-            <span class="tag">Short Paper</span>
-            <span class="pub-links">
-              <a href="https://arxiv.org/pdf/2009.02628">PDF</a>
-            </span>
-          </div>
-        </div>
-        
-        <div class="pub-item">
-          <div class="pub-title">What Design Methods do DataVis Practitioners Know and Use?</div>
-          <div class="pub-authors">Paul Parsons, <strong>Ali Baigelenov</strong>, Ya-Hsin Hung, Connor Schrank</div>
-          <div class="pub-venue">ACM CHI Extended Abstracts</div>
-          <div class="pub-meta">
-            <span class="tag">Late-Breaking Work</span>
-            <span class="pub-links">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3334480.3383048">LINK</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="year-section">
-      <div class="year-label">2018</div>
-      <div class="year-pubs">
-        <div class="pub-item">
-          <div class="pub-title">Interactivity Factors in Visualization-Based Exploratory Search</div>
-          <div class="pub-authors"><strong>Ali Baigelenov</strong>, Paul Parsons</div>
-          <div class="pub-venue">ACM CHI Extended Abstracts</div>
-          <div class="pub-meta">
-            <span class="tag">Late-Breaking Work</span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1145/3170427.3188558">DOI</a>
-            </span>
-          </div>
-        </div>
-        
-        <div class="pub-item">
-          <div class="pub-title">Toward an Analysis of Practitioner-Oriented Resources for Visualization Design</div>
-          <div class="pub-authors">Paul Parsons, Ya-Hsin Hung, <strong>Ali Baigelenov</strong></div>
-          <div class="pub-venue">IEEE VIS Poster Abstracts</div>
-          <div class="pub-meta">
-            <span class="tag">Poster</span>
-            <span class="pub-links">
-              <a href="https://www.dvclab.net/wp-content/uploads/2019/02/PARSONSVIS2018.pdf">PDF</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="year-section">
-      <div class="year-label">2017</div>
-      <div class="year-pubs">
-        <div class="pub-item">
-          <div class="pub-title">Reexamining the Cognitive Utility of 3D Visualizations Using Augmented Reality Holograms</div>
-          <div class="pub-authors">Michael Saenz, <strong>Ali Baigelenov</strong>, Ya-Hsin Hung, Paul Parsons</div>
-          <div class="pub-venue">Workshop on Immersive Analytics (Immersive 2017)</div>
-          <div class="pub-meta">
-            <span class="tag">Workshop</span>
-            <span class="pub-links">
-              <a href="https://www.dvclab.net/wp-content/uploads/2020/02/Saenz-et-al.-2017-Reexamining-the-cognitive-utility-of-3D-visualizations-using-augmented-reality-holograms.pdf">PDF</a>
-            </span>
-          </div>
-        </div>
-        
-        <div class="pub-item">
-          <div class="pub-title">Toward an Understanding of Observational Advantages in Information Visualization</div>
-          <div class="pub-authors"><strong>Ali Baigelenov</strong>, Michael Saenz, Ya-Hsin Hung, Paul Parsons</div>
-          <div class="pub-venue">IEEE VIS Poster Abstracts</div>
-          <div class="pub-meta">
-            <span class="tag">Poster</span>
-            <span class="pub-links">
-              <a href="https://www.dvclab.net/wp-content/uploads/2019/02/Baigelenov-et-al.-Toward-an-Understanding-of-Observational-Advantage.pdf">PDF</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <footer>
-      <span>© 2026 Ali Baigelenov</span>
-    </footer>
-  </div>
+
+    <footer>© 2026 Ali Baigelenov</footer>
+  </main>
+</div>
 </body>
 </html>

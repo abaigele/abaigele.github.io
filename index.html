@@ -2,264 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ali Baigelenov</title>
+  <meta name="description" content="Ali Baigelenov is an Assistant Professor and Chair of Computer Science at KIMEP University, researching HCI, information visualization, and design cognition.">
+  <meta name="color-scheme" content="light dark">
   <link rel="icon" href="ali-favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-    body {
-      font-family: 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
-      background: #f4f4f2;
-      color: #111;
-      font-size: 16px;
-      line-height: 1.55;
-    }
-    
-    .container {
-      max-width: 1040px;
-      margin: 0 auto;
-      padding: 48px 32px 80px;
-    }
-    
-    /* Header */
-    .grid-header {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 32px;
-      align-items: end;
-      padding-bottom: 24px;
-      border-bottom: 3px solid #111;
-      margin-bottom: 48px;
-    }
-    
-    .grid-header h1 {
-      font-size: clamp(44px, 7vw, 76px);
-      font-weight: 700;
-      letter-spacing: -0.035em;
-      line-height: 0.95;
-      text-transform: uppercase;
-    }
-    
-    .grid-header h1 .accent { color: #e3342f; }
-    
-    nav {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 6px;
-      font-size: 14px;
-      font-weight: 500;
-    }
-    
-    nav a {
-      color: #111;
-      text-decoration: none;
-    }
-    
-    nav a::before {
-      content: "→ ";
-      opacity: 0;
-      transition: opacity 0.15s;
-    }
-    
-    nav a:hover::before,
-    nav a.current::before {
-      opacity: 1;
-      color: #e3342f;
-    }
-    
-    /* Main grid */
-    .main-grid {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 48px;
-    }
-    
-    .side-col .profile-photo {
-      width: 100%;
-      max-width: 280px;
-      aspect-ratio: 1;
-      object-fit: cover;
-      object-position: center top;
-      display: block;
-      
-    }
-    
-    .side-col .photo-caption {
-      font-size: 11px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #777;
-      margin-top: 10px;
-      padding-top: 8px;
-      border-top: 1px solid #111;
-      max-width: 280px;
-    }
-    
-    .side-col .contact-block {
-      margin-top: 32px;
-      font-size: 14px;
-      max-width: 280px;
-    }
-    
-    .side-col .contact-block .label {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-    }
-    
-    .side-col .contact-block a {
-      display: block;
-      color: #111;
-      text-decoration: none;
-      padding: 7px 0;
-      border-bottom: 1px solid #d5d5d2;
-      transition: padding-left 0.15s, color 0.15s;
-    }
-    
-    .side-col .contact-block a:hover {
-      padding-left: 8px;
-      color: #e3342f;
-    }
-    
-    /* Content column */
-    .content-col .kicker {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #e3342f;
-      margin-bottom: 14px;
-    }
-    
-    .content-col p {
-      margin-bottom: 18px;
-      max-width: 56ch;
-    }
-    
-    .content-col a {
-      color: #111;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      text-decoration-color: #e3342f;
-      text-underline-offset: 3px;
-    }
-    
-    .content-col a:hover { color: #e3342f; }
-    
-    /* News */
-    .news-block {
-      margin-top: 48px;
-      border-top: 3px solid #111;
-      padding-top: 20px;
-    }
-    
-    .news-block .kicker { margin-bottom: 20px; }
-    
-    .news-row {
-      display: grid;
-      grid-template-columns: 110px 1fr;
-      gap: 20px;
-      padding: 12px 0;
-      border-bottom: 1px solid #d5d5d2;
-      font-size: 15px;
-    }
-    
-    .news-row .date {
-      font-weight: 700;
-      font-size: 13px;
-    }
-    
-    /* Footer */
-    footer {
-      margin-top: 64px;
-      padding-top: 16px;
-      border-top: 3px solid #111;
-      display: flex;
-      justify-content: space-between;
-      font-size: 11px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #777;
-    }
-    
-    /* Responsive */
-    @media (max-width: 720px) {
-      .grid-header { grid-template-columns: 1fr; align-items: start; }
-      nav { flex-direction: row; gap: 18px; align-items: flex-start; }
-      .main-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="grid-header">
-      <h1>Ali<br>Baigelenov<span class="accent">.</span></h1>
-      <nav>
-        <a href="index.html" class="current">About</a>
-        <a href="publications.html">Publications</a>
-        <a href="cv.pdf" target="_blank">CV</a>
-      </nav>
+<div class="page">
+  <header class="side">
+    <div>
+      <a class="name" href="index.html">Ali Baigelenov</a>
+      <p class="tagline">Assistant Professor and Chair at <a href="https://www.kimep.kz/en/">KIMEP University.</a></p>
     </div>
-    
-    <div class="main-grid">
-      <div class="side-col">
-        <img src="avatar.png" alt="Ali Baigelenov" class="profile-photo">
-        
-        
-        <div class="contact-block">
-          <div class="label">Contact</div>
-          <a href="mailto:alioktl@gmail.com">Email</a>
-          <a href="https://scholar.google.com/citations?user=is6EFNcAAAAJ&hl=en">Google Scholar</a>
-          <a href="https://www.linkedin.com/in/ali-baigelenov/">LinkedIn</a>
-          <a href="https://orcid.org/0009-0003-6491-1874">ORCID</a>
+    <nav aria-label="Main">
+      <a href="index.html" aria-current="page">About</a>
+      <a href="publications.html">Publications</a>
+      <a href="talks.html">Talks</a>
+      <a href="cv.pdf">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="visually-hidden">About</h1>
+    <div class="about">
+      <div class="aside">
+        <img class="photo" src="avatar.png" alt="Portrait of Ali Baigelenov" width="260" height="320">
+        <div class="contact">
+          <span class="label">Contact</span>
+          <a href="mailto:alioktl@gmail.com">alioktl@gmail.com</a>
+        </div>
+        <div>
+          <span class="label">Elsewhere</span>
+          <ul>
+            <li><a href="https://scholar.google.com/citations?user=is6EFNcAAAAJ&amp;hl=en">Google Scholar</a></li>
+            <li><a href="https://orcid.org/0009-0003-6491-1874">ORCID</a></li>
+            <li><a href="https://www.linkedin.com/in/ali-baigelenov/">LinkedIn</a></li>
+          </ul>
         </div>
       </div>
-      
-      <div class="content-col">
-        <div class="kicker">About</div>
-        <p>
-          I am a researcher in human-computer interaction and information visualization. I recently completed my PhD in Technology at <a href="https://www.purdue.edu/">Purdue University</a>, advised by 
-          <a href="https://paulcparsons.com/">Dr. Paul Parsons</a>. My research studies technology-mediated creativity by examining how designers find and use inspiration, conceptualize creativity, and integrate AI tools into their creative practice.
-        </p>
-        <p>
-          I am currently an Assistant Professor and Chair of the Department of Computer Science in the School of Computer Science and Artificial Intelligence at <a href="https://www.kimep.kz/">KIMEP University, Kazakhstan</a> and a Senior Lecturer in the School of Information Technology and Applied Mathematics at <a href="https://sdu.edu.kz/">SDU University, Kazakhstan</a>.
-        </p>
-        
-        <div class="news-block">
-          <div class="kicker">News</div>
-          <div class="news-row">
-            <span class="date">APR 2026</span>
-            <span>Presented our paper at CHI 2026 in Barcelona, Spain.</span>
-          </div>
-          <div class="news-row">
-            <span class="date">MAR 2026</span>
-            <span>Successfully passed my PhD Defense!</span>
-          </div>
-          <div class="news-row">
-            <span class="date">JAN 2026</span>
-            <span>Full paper accepted to CHI 2026!</span>
-          </div>
-          <div class="news-row">
-            <span class="date">APR 2025</span>
-            <span>Presented our paper at CHI 2025 in Yokohama, Japan.</span>
-          </div>
-          <div class="news-row">
-            <span class="date">FEB 2025</span>
-            <span>One full paper and two LBWs accepted to CHI 2025.</span>
-          </div>
-        </div>
+
+      <div class="bio">
+        <p>My research studies technology-mediated creativity by examining how designers find and use inspiration, conceptualize creativity, and integrate AI tools into their creative practice.</p>
+        <p>I am currently an Assistant Professor and Chair of the Department of Computer Science in the School of Computer Science and Artificial Intelligence at <a href="https://www.kimep.kz/en/">KIMEP University</a>, Kazakhstan and a Senior Lecturer in the School of Information Technology and Applied Mathematics at <a href="https://sdu.edu.kz/">SDU University</a>, Kazakhstan. I completed my PhD in Technology at <a href="https://www.purdue.edu/">Purdue University</a> in 2026, advised by <a href="https://paulcparsons.com/">Paul Parsons</a>.</p>
+
+        <section class="news" aria-labelledby="news-title">
+          <span class="section-title" id="news-title">News</span>
+          <dl>
+            <dt>Aug 2026</dt><dd>Joined KIMEP University as an Assistant Professor and Chair of Computer Science.</dd>
+            <dt>Apr 2026</dt><dd>Presented <a href="publications.html">our paper</a> at CHI 2026 in Barcelona.</dd>
+            <dt>Mar 2026</dt><dd>Defended my PhD at Purdue.</dd>
+            <dt>Jan 2026</dt><dd>Full paper accepted to CHI 2026.</dd>
+            <dt>Apr 2025</dt><dd>Presented our paper at CHI 2025 in Yokohama.</dd>
+            <dt>Feb 2025</dt><dd>One full paper and two LBWs accepted to CHI 2025.</dd>
+          </dl>
+        </section>
       </div>
     </div>
-    
-    <footer>
-      <span>© 2026 Ali Baigelenov</span>
-    </footer>
-  </div>
+
+    <footer>© 2026 Ali Baigelenov</footer>
+  </main>
+</div>
 </body>
 </html>
